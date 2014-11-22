@@ -73,11 +73,40 @@
 				<span itemprop="author" itemscope itemtype="http://schema.org/Person">
 				<meta itemprop="name" content="Apple"></span>
 				<meta itemprop="url" content="https://developer.apple.com/library/mac/documentation/cocoa/conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html">
-				<meta itemprop="applicationCategory" content="iPhone Programming">
+				<meta itemprop="applicationCategory" content="iPhone Apps">
 			</li>
-			<li>Java ( Android )</li>
-			<li>C# / XAML ( Windows Phone )</li>
-			<li>Unity</li>
+			<li itemscope itemtype="http://schema.org/SoftwareApplication">
+				<span itemprop="name">Java</span> ( 
+				<span itemprop="operatingSystem">Android</span> )
+				<span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+				<meta itemprop="name" content="Google"></span>
+				<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+				<meta itemprop="name" content="Google"></span>
+				<meta itemprop="applicationCategory" content="Android Apps">
+			</li>
+			<li>
+				<span itemscope itemtype="http://schema.org/SoftwareApplication" itemref="_operatingSystem2">
+					<span itemprop="name">C#</span> 
+					<span id="_publisher3" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+					<meta itemprop="name" content="Microsoft"></span>
+					<span id="_author4" itemprop="author" itemscope itemtype="http://schema.org/Person">
+					<meta itemprop="name" content="Microsoft"></span>
+					<meta id="_applicationCategory5" itemprop="applicationCategory" content="Mobile Apps"></span>/ 
+					<span itemscope itemtype="http://schema.org/SoftwareApplication" itemref="_publisher3 _author4 _applicationCategory5">
+					<span itemprop="name">XAML</span> ( 
+					<span id="_operatingSystem2" itemprop="operatingSystem">Windows Phone</span>
+				</span>)
+			</li>
+			<span itemscope itemtype="http://schema.org/SoftwareApplication">
+				<li itemprop="name">Unity</li>
+				<meta itemprop="downloadUrl" content="http://unity3d.com/unity/download">
+				<span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+				<meta itemprop="name" content="Unity Technologies"></span>
+				<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+				<meta itemprop="name" content="Unity Technologies"></span>
+				<meta itemprop="url" content="http://unity3d.com/">
+				<meta itemprop="applicationCategory" content="Cross Platform">
+			</span>
 			<li>Cocos2D</li>
 			<li>OpenGL</li>
 			<li>Titanium</li>
