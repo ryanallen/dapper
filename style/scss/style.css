@@ -14,7 +14,7 @@ a:link {
 
 .flex-nav__parent {
   justify-content: space-between;
-  background-color: #ff5442;
+  background-color: #323a45;
   position: fixed;
   top: 0;
   width: 100%; }
@@ -41,7 +41,7 @@ a:link {
 .page-subhead {
   margin: 1rem 2rem 0;
   color: #FFFFFF;
-  font-size: 2rem;
+  font-size: 1.9vw;
   font-weight: 400; }
 
 /*# sourceMappingURL=style.css.map */
