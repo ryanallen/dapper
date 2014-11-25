@@ -1,29 +1,25 @@
 ////////////////////////////////////////////////////////////////////////////////
 // NAVIGATION                                                                 //
 ////////////////////////////////////////////////////////////////////////////////
-.nav {
-	display: flex;
-	background-color: $vermilion;
-	height: 60px;
-	margin: 0;
-	padding: 1em 0 0;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	z-index: 1;
+.flex-nav {
+  display:          flex;
 }
 
-.nav__logo {
-	justify-content: flex-start;
-	font-size: 1.3em;
-	margin: 0 .6em 0 1.5em;
-	background-color: $parisian-blue;
+.flex-nav__parent {
+  justify-content:  space-between;
+  background-color: $vermilion;
+  position:         fixed;
+  top:              0;
+  width:            100%;
 }
 
-.nav__menu {
-
-	justify-content: flex-end;
-	list-style-type: none;
-	background-color: $parisian-blue;
+.cell {
+  margin: 1em;
+  padding: 1em; 
+  color: $white;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1em;
 }
 
