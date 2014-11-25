@@ -1,4 +1,4 @@
-* { box-sizing: border-box }
+
 
 body {
 	margin: 0;
@@ -7,6 +7,11 @@ body {
 section {
 	background-color:	#323a45;
 	color:	#fff;
+	padding: 2em;
+}
+
+.inner {
+	background-color:	#626a75;
 }
 
 @media all and (orientation: portrait) {
