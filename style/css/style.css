@@ -2,7 +2,9 @@
   box-sizing: border-box; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Droid Serif', serif; }
 
 a:link {
   text-decoration: none; }
@@ -31,4 +33,17 @@ a:link {
   font-size: 1em; }
 
 .header-main {
+  padding: 4rem 0 0;
   background-color: #ff5442; }
+
+.page-heading {
+  margin: 2rem 2rem 0 2rem;
+  color: #FFFFFF;
+  font-size: 7.5vw;
+  font-weight: 700; }
+
+.page-subhead {
+  margin: 1rem 2rem 0;
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-weight: 400; }
