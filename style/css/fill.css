@@ -7,10 +7,20 @@ body {
 section {
 	background-color:	#323a45;
 	color:	#fff;
-	height: 100vmax;	/* 100% filled for portrait */
-	height: 100vmin;	/* 100% filled for landscape */
-	/* THIS NEEDS A MEDIA QUERY FOR ORIENTATION */
-
-
 }
+
+@media all and (orientation: portrait) {
+	section {
+		height: 100vmax;	
+	}
+}
+
+@media all and (orientation: landscape) {
+	section {
+		height: 100vmin;	
+	}
+}
+
+
+
 
