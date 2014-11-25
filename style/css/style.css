@@ -19,18 +19,27 @@ a:link {
   -ms-flex-pack: justify;
   justify-content: space-between;
   background-color: #323a45;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: fixed;
   top: 0;
   width: 100%; }
 
+.flex-nav__logo {
+  height: 38px; }
+
 .cell {
-  margin: 1em;
+  margin: .25em;
   padding: 1em;
   color: #FFFFFF;
   text-transform: uppercase;
   text-decoration: none;
   list-style: none;
-  font-size: 1em; }
+  font-size: 1em;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center; }
 
 .header-main {
   padding: 4rem 0 0;

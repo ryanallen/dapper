@@ -1,0 +1,16 @@
+* { box-sizing: border-box }
+
+body {
+	margin: 0;
+}
+
+section {
+	background-color:	#323a45;
+	color:	#fff;
+	height: 100vmax;	/* 100% filled for portrait */
+	height: 100vmin;	/* 100% filled for landscape */
+	/* THIS NEEDS A MEDIA QUERY FOR ORIENTATION */
+
+
+}
+
