@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Droid Serif', serif; }
+
+a:link {
+  text-decoration: none; }
+
+.flex-nav {
+  display: flex; }
+
+.flex-nav__parent {
+  justify-content: space-between;
+  background-color: #323a45;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.flex-nav__logo {
+  height: 38px; }
+
+.cell {
+  margin: .25em;
+  padding: 1em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1em;
+  align-self: center; }
+
+.header-main {
+  padding: 4rem 0 0;
+  background-color: #ff5442; }
+
+.page-heading {
+  margin: 2rem 2rem 0 2rem;
+  color: #FFFFFF;
+  font-size: 7.5vw;
+  font-weight: 700; }
+
+.page-subhead {
+  margin: 1rem 2rem 0;
+  color: #FFFFFF;
+  font-size: 1.9vw;
+  font-weight: 400; }
+
+/*# sourceMappingURL=style.css.map */

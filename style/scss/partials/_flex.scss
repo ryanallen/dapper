@@ -1,0 +1,35 @@
+.flex--inline {
+  display: inline-flex; }
+
+.flex--row-reverse {
+  flex-direction: row-reverse; }
+
+.flex--column {
+  flex-direction: column; }
+
+.flex--column-reverse {
+  flex-direction: column-reverse; }
+
+
+.cell {
+  margin: 1em;
+  padding: 1em; 
+  color: $white;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1em;
+}
+
+
+.flex-nav {
+  display:          flex;
+}
+
+.flex-nav__parent {
+  justify-content:  space-between;
+  background-color: $vermilion;
+  position:         fixed;
+  top:              0;
+  width:            100%;
+}
