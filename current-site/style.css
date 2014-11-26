@@ -1067,77 +1067,7 @@ ul.retina-icons li span {
 .tab-container .panel-container div.tab-block {
     padding: 20px 0 0 0
 }
-/*-----------------------------------------------------------------------------------*/
-/*	TESTIMONIALS
-/*-----------------------------------------------------------------------------------*/
-#testimonials {
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-}
-#testimonials .author {
-    font-style: normal;
-    font-size: 18px;
-    color: #e74c3c;
-    display: block;
-}
-#testimonials div {
-    font-size: 25px;
-    margin-bottom: 10px;
-    line-height: 35px;
-    font-weight: 300;
-    position: relative;
-    color: #ededed;
-}
-#testimonials .tab {
-    border: none;
-    margin: 0;
-    background: none;
-}
-#testimonials .tab a {
-    padding: 0;
-    background-color: #d0d0d0;
-    text-indent: -99999px;
-    width: 10px;
-    height: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-}
-#testimonials .tab a.active,
-#testimonials .tab a:hover {
-    background: #e74c3c;
-    position: relative;
-    z-index: 3;
-}
-#testimonials .panel-container {
-    border: none
-}
-/*-----------------------------------------------------------------------------------*/
-/*	PROCESS
-/*-----------------------------------------------------------------------------------*/
-.process .etabs,
-#testimonials .etabs {
-    text-align: center
-}
-.process .tab a {
-    padding: 10px 25px
-}
-.process .tab i {
-    padding-right: 2px
-}
-.tab-container.process .panel-container div.tab-block {
-    padding-top: 25px
-}
-.services i.special {
-    font-size: 45px;
-    display: inline-block;
-    line-height: 1;
-    float: left;
-    width: 70px;
-}
-.services .info {
-    overflow: hidden
-}
+
 /*-----------------------------------------------------------------------------------*/
 /*	TOGGLE
 /*-----------------------------------------------------------------------------------*/
