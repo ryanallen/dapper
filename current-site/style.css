@@ -1067,46 +1067,6 @@ ul.retina-icons li span {
 .tab-container .panel-container div.tab-block {
     padding: 20px 0 0 0
 }
-
-/*-----------------------------------------------------------------------------------*/
-/*	TOGGLE
-/*-----------------------------------------------------------------------------------*/
-.toggle {
-    width: 100%;
-    padding-bottom: 15px;
-    clear: both;
-}
-.toggle h4.title {
-    cursor: pointer;
-    color: #616161;
-    background-color: #f9f9f9;
-    border: 1px solid #e7e7e7;
-    margin: 0;
-    padding: 10px 15px;
-    font-size: 13px;
-    font-weight: 700;
-    -webkit-transition: all 200ms ease-in;
-    -o-transition: all 200ms ease-in;
-    -moz-transition: all 200ms ease-in;
-}
-.toggle h4.title:hover,
-.toggle h4.title.active {
-    color: #e74c3c
-}
-.toggle h4.title.active {
-    background: #fff
-}
-.togglebox {
-    height: auto;
-    overflow: hidden;
-    margin: 0;
-    background-color: #f9f9f9;
-    border: 1px solid #e7e7e7;
-    border-top: none;
-}
-.togglebox div {
-    padding: 15px 15px 0 15px
-}
 /*-----------------------------------------------------------------------------------*/
 /*	SLIDER
 /*-----------------------------------------------------------------------------------*/
