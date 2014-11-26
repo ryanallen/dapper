@@ -21,20 +21,6 @@
   line-height: 1em;
 }
 
-[class^="icon-s-"]:before,
-[class*=" icon-s-"]:before {
-  font-family: 'fontello-social';
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: 0;
-  text-align: center;
-  line-height: 1em;
-}
-
 .icon-left-open:before { content: '\e75d'; } /* '' */
 .icon-left-open-1:before { content: '\e84b'; } /* '' */
 .icon-right-open:before { content: '\e75e'; } /* '' */
@@ -51,3 +37,5 @@
 .icon-cancel-circled:before { content: '\2716'; } /* '✖' */
 .icon-cancel-circle:before { content: '\e818'; } /* '' */
 .icon-cancel-squared:before { content: '\274e'; } /* '❎' */
+.icon-menu-1:before { content: '\f0c9'; } /* '' */
+.icon-menu:before { content: '\2630'; } /* '☰' */
