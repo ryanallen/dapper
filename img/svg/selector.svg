@@ -1,0 +1,26 @@
+<svg
+	version="1.1"
+	id="Layer_1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	x="0px"
+	y="0px"
+	viewBox="0 0 1000 1000"
+	enable-background="new 0 0 1000 1000"
+	xml:space="preserve"
+>
+	<path
+		id="selector-outside"
+		fill="#333333"
+		d="M280,166l-134-19l20,133c-87,133-87,306,0,439l-19,134l133-19c133,87,306,87,439,0
+	l134,19l-19-133c87-133,87-306,0-439l19-134l-133,19C587,78,413,78,280,166z M712,288c117,117,117,307,0,424c-117,117-307,117-424,0
+	s-117-307,0-424S595,171,712,288z"
+	/>
+	<circle
+		id="selector-inside"
+		fill="#333333"
+		cx="500"
+		cy="500"
+		r="150"
+	/>
+</svg>

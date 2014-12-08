@@ -1,15 +1,118 @@
 ////////////////////////////////////////////////////////////////////////////////
-// COLOR PALLETES                                                             //
+// BLUE                                                                       //
 ////////////////////////////////////////////////////////////////////////////////
 
-	$blue-grey:				#626a75;			// Light Blue-Grey
-	$parisian-blue:			#323a45;			// Dapper Blue Dark
-	$pearl: 				#ede5e2;			// Pearl White
-	$vermilion:				#ff5442;			// Dapper Red
+
+$blue-hue: 215deg;
+$blue-sat: 60%;
+
+@for $blue-brt from 0 through 100 {
+	.blue__bg--#{$blue-brt} {
+		background-color: hsl($blue-hue, $blue-sat, $blue-brt);
+	}
+}
+@for $blue-brt from 0 through 100 {
+	.blue__color--#{$blue-brt} {
+		color: hsl($blue-hue, $blue-sat, $blue-brt);
+	}
+}
+@for $blue-brt from 0 through 100 {
+	.blue__drop-shadow--#{$blue-brt} {
+		box-shadow: 0 .5rem 0 0 hsl($blue-hue, $blue-sat, $blue-brt);
+	}
+}
+@for $blue-brt from 0 through 100 {
+	.blue__fill--#{$blue-brt} {
+		fill: hsl($blue-hue, $blue-sat, $blue-brt);
+	}
+}
+@for $blue-brt from 0 through 100 {
+	.blue__hover--#{$blue-brt}:hover {
+		background-color: hsl($blue-hue, $blue-sat, $blue-brt);
+		box-shadow: none;
+	}
+}
+@for $blue-brt from 0 through 100 {
+	.blue__inner-shadow--#{$blue-brt} {
+		box-shadow: inset 0 .5rem 0 0 hsl($blue-hue, $blue-sat, $blue-brt);
+	}
+}
+
 
 ////////////////////////////////////////////////////////////////////////////////
-// GREY SCALE                                                                 //
+// BROWN                                                                      //
 ////////////////////////////////////////////////////////////////////////////////
-	
-	$white:					#FFFFFF;			// White
-	$grey-5	:				darken($white, 5%);	// 5% Black
+
+$brown-hue: 50deg;
+$brown-sat: 10%;
+
+@for $brown-brt from 0 through 100 {
+	.brown__bg--#{$brown-brt} {
+		background-color: hsl($brown-hue, $brown-sat, $brown-brt);
+	}
+}
+@for $brown-brt from 0 through 100 {
+	.brown__color--#{$brown-brt} {
+		color: hsl($brown-hue, $brown-sat, $brown-brt);
+	}
+}
+@for $brown-brt from 0 through 100 {
+	.brown__drop-shadow--#{$brown-brt} {
+		box-shadow: 0 .5rem 0 0 hsl($brown-hue, $brown-sat, $brown-brt);
+	}
+}
+@for $brown-brt from 0 through 100 {
+	.brown__fill--#{$brown-brt} {
+		fill: hsl($brown-hue, $brown-sat, $brown-brt);
+	}
+}
+@for $brown-brt from 0 through 100 {
+	.brown__hover--#{$brown-brt}:hover {
+		background-color: hsl($brown-hue, $brown-sat, $brown-brt);
+		box-shadow: none;
+	}
+}
+@for $brown-brt from 0 through 100 {
+	.brown__inner-shadow--#{$brown-brt} {
+		box-shadow: inset 0 .5rem 0 0 hsl($brown-hue, $brown-sat, $brown-brt);
+	}
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// RED                                                                        //
+////////////////////////////////////////////////////////////////////////////////
+
+$red-hue: 13deg;
+$red-sat: 85%;
+
+@for $red-brt from 0 through 100 {
+	.red__bg--#{$red-brt} {
+		background-color: hsl($red-hue, $red-sat, $red-brt);
+	}
+}
+@for $red-brt from 0 through 100 {
+	.red__color--#{$red-brt} {
+		color: hsl($red-hue, $red-sat, $red-brt);
+	}
+}
+@for $red-brt from 0 through 100 {
+	.red__drop-shadow--#{$red-brt} {
+		box-shadow: 0 .5rem 0 0 hsl($red-hue, $red-sat, $red-brt);
+	}
+}
+@for $red-brt from 0 through 100 {
+	.red__fill--#{$red-brt} {
+		fill: hsl($red-hue, $red-sat, $red-brt);
+	}
+}
+@for $red-brt from 0 through 100 {
+	.red__hover--#{$red-brt}:hover {
+		background-color: hsl($red-hue, $red-sat, $red-brt);
+		box-shadow: none;
+	}
+}
+@for $red-brt from 0 through 100 {
+	.red__inner-shadow--#{$red-brt} {
+		box-shadow: inset 0 .5rem 0 0 hsl($red-hue, $red-sat, $red-brt);
+	}
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.2" baseProfile="tiny" id="avatar-jo"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 70 190"
+	 xml:space="preserve">
+<polygon id="body_2_" fill="#CCCCCC" points="60,40 60,80 20,80 20,0 50,0 50,40 "/>
+<image width="126" height="146" id="shadow-bowtie_2_" xlink:href="95051FB9C811FF2F.png"  transform="matrix(0.24 0 0 0.24 20 6)">
+</image>
+<polygon id="bowtie_1_" fill="#333333" points="51,7 42,7 42,12 35.2,7 34.8,7 28,12 28,7 19,7 19,5 28,5 28,0 34.8,5 35.2,5 42,0 
+	42,5 51,5 "/>
+<polygon id="bowtie-accents_1_" fill="#191919" points="38,7.8 35.2,6 35,6 32,7.8 32,4 35,6 35.2,6 38,4 "/>
+<polygon id="beard_1_" fill="#999999" points="50,33 50,35 40,35 40,19 50,19 50,25 42,25 42,33 "/>
+<rect id="mouth_2_" x="44" y="29" fill="#666666" width="5" height="2"/>
+<g id="freckles_1_">
+	<circle id="freckle-darkest_1_" fill="#666666" cx="34" cy="20" r="1"/>
+	<circle id="freckle-5_1_" fill="#999999" cx="29" cy="25" r="1"/>
+	<circle id="freckle-4_1_" fill="#B2B2B2" cx="34" cy="30" r="1"/>
+	<circle id="freckle-3_1_" fill="#B2B2B2" cx="29" cy="35" r="1"/>
+	<circle id="freckle-2_1_" fill="#B2B2B2" cx="34" cy="40" r="1"/>
+	<circle id="freckle-lightest_1_" fill="#E5E5E5" cx="29" cy="45" r="1"/>
+</g>
+<g id="right-eye_2_">
+	<path id="right-eye_main_1_" fill="#808080" d="M64,64c0-2.2-1.8-3-4-3s-4,0.8-4,3c0,2.2,1.8,3,4,3S64,66.2,64,64z"/>
+	<path id="right-eye_pupil_2_" fill="#4C4C4C" d="M61.3,64c0-0.7-0.6-1-1.3-1s-1.3,0.3-1.3,1s0.6,1,1.3,1S61.3,64.7,61.3,64z"/>
+</g>
+<g id="left-eye_2_">
+	<path id="left-eye_shadow_1_" fill="#B2B2B2" d="M41,69c-2.6,0-4.7-2-4.9-4.5c0,0.2-0.1,0.3-0.1,0.5c0,2.8,2.2,5,5,5s5-2.2,5-5
+		c0-0.2,0-0.3-0.1-0.5C45.7,67,43.6,69,41,69z"/>
+	<path id="left-eye_main_2_" fill="#808080" d="M41,69c2.6,0,4.7-2,4.9-4.5c0-0.2,0.1-0.3,0.1-0.5c0-2.8-2.2-5-5-5s-5,2.2-5,5
+		c0,0.2,0,0.3,0.1,0.5C36.3,67,38.4,69,41,69z"/>
+	<circle id="left-eye_pupil_2_" fill="#333333" cx="41" cy="64" r="2"/>
+</g>
+<g id="hat_2_">
+	<polygon id="hat__main-color_1_" fill="#333333" points="60,82 60,170 20,170 20,82 15,82 15,80 65,80 65,82 	"/>
+	<rect id="hat__highlight_1_" x="22" y="84" fill="#404040" width="1" height="84"/>
+</g>
+<polygon id="chat-bubble_2_" fill="#F2F2F2" points="70,23 52,30 70,37 "/>
+<g id="arm-pointing">
+	<rect id="arm-base_3_" x="3.8" fill="#CCCCCC" width="8" height="162"/>
+	<g id="hand_3_">
+		<polygon id="hand-base_3_" fill="#CCCCCC" points="14.8,172 13.8,173 13.8,175 2.8,175 3.8,162 11.8,162 14.8,167 		"/>
+		<rect id="finger-pinkie_3_" x="2.8" y="175" fill="#CCCCCC" width="2" height="1"/>
+		<rect id="finger-ring_3_" x="5.8" y="175" fill="#CCCCCC" width="2" height="2"/>
+		<rect id="finger-middle_3_" x="8.8" y="175" fill="#CCCCCC" width="2" height="3"/>
+		<rect id="finger-pointer_3_" x="11.8" y="175" fill="#CCCCCC" width="2" height="8"/>
+		<polygon id="thumb_3_" fill="#CCCCCC" points="14.8,167 14.8,167 13.8,173 15.8,172 		"/>
+	</g>
+</g>
+</svg>

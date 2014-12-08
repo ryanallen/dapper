@@ -1,0 +1,30 @@
+// DETECT ORIENTATION
+
+@media all and (orientation: portrait) {
+	.h1-main {
+		font-size: 7vh;
+	}
+
+	.choice-fontsize {
+		font-size:	3.2vmin;
+	}
+
+	.choice-orientation {
+		flex-direction: column;
+	}
+
+	.hide {
+		display: none; // HIDES SELECTOR ON PORTRAIT
+	}
+}
+
+@media all and (orientation: landscape) {
+	.h1-main {
+		font-size: 7vw;
+	}
+
+.choice-fontsize {
+		font-size:	2.5vw;
+	}
+}
+

@@ -1,35 +1,83 @@
-.flex--inline {
-  display: inline-flex; }
+.shell {
+  height: 100%; // bo takes up 100% width automatically, this makes it fill the height as well.
+  display: flex; // flexbox parent. all grown up and in charge.
+}
 
-.flex--row-reverse {
-  flex-direction: row-reverse; }
+.column {
+  flex-direction: column; // sets flexbox to stack boxes vertically in a column.
+}
 
-.flex--column {
-  flex-direction: column; }
+.overflow-hidden {
+  overflow: hidden;
+}
 
-.flex--column-reverse {
-  flex-direction: column-reverse; }
+////////////////////////////////////////////////////////////////////////////////
+// SET FLEXBOX AND THEIR RELATIVE SIZES                                       //
+////////////////////////////////////////////////////////////////////////////////
+
+.flex1 {display: flex; flex: 1;}
+.flex2 {display: flex; flex: 2;}
+.flex3 {display: flex; flex: 3;}
+
+////////////////////////////////////////////////////////////////////////////////
+// ALIGNMENT                                                                  //
+////////////////////////////////////////////////////////////////////////////////
+
+.horizontal-center  { justify-content:   center; }
+.horizontal-right   { justify-content: flex-end; }
+
+.vertical-top       { align-items:   flex-start; }
+.vertical-center    { align-items:       center; }
+.vertical-bottom    { align-items:     flex-end; }
+
+.alignself-end      { align-self:      flex-end; }
+
+////////////////////////////////////////////////////////////////////////////////
+// PADDING                                                                    //
+////////////////////////////////////////////////////////////////////////////////
+
+.pad1  { padding: .1rem; }
+.pad2  { padding: .2rem; }
+.pad3  { padding: .3rem; }
+.pad4  { padding: .4rem; }
+.pad5  { padding: .5rem; }
+.pad6  { padding: .6rem; }
+.pad7  { padding: .7rem; }
+.pad8  { padding: .8rem; }
+.pad9  { padding: .9rem; }
+.pad10 { padding:  1rem; }
+.pad20 { padding:  2rem; }
+
+.pad20--top     { padding-top:    2rem; } // padding top
+.pad20--bottom  { padding-bottom: 2rem; } // padding bottom
+
+.margin3 { margin: .5rem; }
+
+////////////////////////////////////////////////////////////////////////////////
+// SHADOWS                                                                    //
+////////////////////////////////////////////////////////////////////////////////
+
+.shadow { box-shadow: 0 .2rem .1rem .1rem $lightness--30; }    
 
 
-.cell {
-  margin: 1em;
-  padding: 1em; 
-  color: $white;
-  text-transform: uppercase;
-  text-decoration: none;
-  list-style: none;
-  font-size: 1em;
+////////////////////////////////////////////////////////////////////////////////
+// ROUND CORNERS                                                              //
+////////////////////////////////////////////////////////////////////////////////               
+
+.border-radius5  { border-radius: .5rem; }
+.border-radius10 { border-radius:  1rem; } // border relative to root (14px)
+
+.border-topleft-radius5     { border-top-left-radius:     .5rem; }
+.border-topright-radius5    { border-top-right-radius:    .5rem; }
+.border-bottomleft-radius5  { border-bottom-left-radius:  .5rem; }
+.border-bottomright-radius5 { border-bottom-right-radius: .5rem; }
+
+////////////////////////////////////////////////////////////////////////////////
+// SVG                                                                        //
+////////////////////////////////////////////////////////////////////////////////
+
+.svg {
+  @extend .alignself-end;
 }
 
 
-.flex-nav {
-  display:          flex;
-}
-
-.flex-nav__parent {
-  justify-content:  space-between;
-  background-color: $vermilion;
-  position:         fixed;
-  top:              0;
-  width:            100%;
-}

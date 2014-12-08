@@ -2,11 +2,16 @@
 ## Build Tools
 #################
 node_modules/
+style/scss/.scss-cache
+style/scss/style.css.map
 
 #################
-## Photoshop
+## Images
 #################
 *.psd
+*.png
+*.jpg
+*.ai
 
 #################
 ## Eclipse
