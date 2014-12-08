@@ -5983,13 +5983,6 @@ a:link {
 .border-bottomright-radius5 {
   border-bottom-right-radius: .5rem; }
 
-.animate1 {
-  width: 5;
-  height: 2; }
-
-.animate2 {
-  background: #690; }
-
 @media all and (orientation: portrait) {
   .h1-main {
     font-size: 7vh; }
