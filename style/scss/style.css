@@ -5934,6 +5934,12 @@ a:link {
 .pad20--bottom {
   padding-bottom: 2rem; }
 
+.pad20--right {
+  padding-right: 2rem; }
+
+.pad20--left {
+  padding-left: 2rem; }
+
 .margin3 {
   margin: .5rem; }
 
