@@ -5987,6 +5987,9 @@ a:link {
 .border-bottomright-radius5 {
   border-bottom-right-radius: .5rem; }
 
+.svg-absolute {
+  width: 200px; }
+
 @media all and (orientation: portrait) {
   .h1-main {
     font-size: 7vh; }
