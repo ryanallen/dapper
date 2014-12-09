@@ -4,7 +4,7 @@
 
 
 $blue-hue: 215deg;
-$blue-sat: 60%;
+$blue-sat: 20%;
 
 @for $blue-brt from 0 through 100 {
 	.blue__bg--#{$blue-brt} {
