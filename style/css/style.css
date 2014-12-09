@@ -5920,6 +5920,10 @@ a:link {
   -ms-flex-item-align: end;
   align-self: flex-end; }
 
+.rotate90 {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
 .pad1 {
   padding: .1rem; }
 

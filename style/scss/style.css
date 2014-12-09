@@ -5892,6 +5892,9 @@ a:link {
 .alignself-end, .svg {
   align-self: flex-end; }
 
+.rotate90 {
+  transform: rotate(90deg); }
+
 .pad1 {
   padding: .1rem; }
 
