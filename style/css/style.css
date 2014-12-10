@@ -5848,9 +5848,12 @@ a:link {
   font-family: 'Unica One', cursive; }
 
 .h1-main {
-  font-size: 14.2vh;
+  font-size: 14vh;
   text-transform: uppercase;
   text-align: center; }
+
+.h1-embiggen {
+  font-size: 24vh; }
 
 .shell {
   height: 100%;
