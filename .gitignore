@@ -6,6 +6,11 @@ style/scss/.scss-cache
 style/scss/style.css.map
 
 #################
+## Archive
+#################
+archive/
+
+#################
 ## Images
 #################
 *.psd
