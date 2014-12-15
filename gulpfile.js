@@ -1,11 +1,6 @@
 var gulp = require('gulp');
 var autoprefixer = require('gulp-autoprefixer');
-
-// PATHS
-
-var paths = {
-  prefix: 'style/scss/style.css'
-};
+var paths = { prefix: 'style/scss/style.css' };
 
 // AUTOPREFIXER
 
