@@ -16,12 +16,14 @@ body {
 a:link { text-decoration: none; } // Removes underline from hyperlinks
 
 .vollkorn {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Vollkorn', serif; // Choices typeface
 }
 
 .unica-one {
-	font-family: 'Unica One', cursive;
+	font-family: 'Unica One', cursive; // h1 typeface
 }
+
+// CLEAN UP SELECTORS BELOW THIS LINE
 
 .h1-main {
 	font-size: 14vh;
@@ -32,7 +34,3 @@ a:link { text-decoration: none; } // Removes underline from hyperlinks
 .h1-embiggen {
 	font-size: 24vh;
 }
-
-.animate {
-
-	}
