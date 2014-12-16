@@ -11,6 +11,10 @@
   overflow: hidden;
 }
 
+.z10 {
+	z-index: 10;
+}
+
 ////////////////////////////////////////////////////////////////////////////////
 // SET FLEXBOX AND THEIR RELATIVE SIZES                                       //
 ////////////////////////////////////////////////////////////////////////////////
@@ -20,6 +24,11 @@
 .flex3 {display: flex; flex: 3;}
 .flex4 {display: flex; flex: 4;}
 .flex5 {display: flex; flex: 5;}
+.flex6 {display: flex; flex: 6;}
+.flex7 {display: flex; flex: 7;}
+.flex8 {display: flex; flex: 8;}
+.flex9 {display: flex; flex: 9;}
+.flex10 {display: flex; flex: 10;}
 
 ////////////////////////////////////////////////////////////////////////////////
 // ALIGNMENT                                                                  //

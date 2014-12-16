@@ -1,10 +1,21 @@
+/// BROWN
+$brown15: #2a2922;
+
+/// BLUE
+$blue-hue: 215deg;
+$blue-sat: 20%;
+
+$blue10: hsl($blue-hue, $blue-sat, 10);
+$blue20: hsl($blue-hue, $blue-sat, 20);
+$blue30: hsl($blue-hue, $blue-sat, 30);
+$blue40: hsl($blue-hue, $blue-sat, 40);
+
 ////////////////////////////////////////////////////////////////////////////////
 // BLUE                                                                       //
 ////////////////////////////////////////////////////////////////////////////////
 
 
-$blue-hue: 215deg;
-$blue-sat: 20%;
+
 
 @for $blue-brt from 0 through 100 {
 	.blue__bg--#{$blue-brt} {
