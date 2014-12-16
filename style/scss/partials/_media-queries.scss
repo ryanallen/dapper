@@ -9,9 +9,10 @@
 		flex-direction: column;
 	}
 
-	.choices__button {
-	font-size:	5vw;
-}
+
+	h2 {
+	font-size:	5vw;	///	controls choice button font-size in portrait 
+	}
 
 	.bioware-style-conversation-wheel {
 		display: none; // hides conversation wheel when the screen is taller vertically than horizontally

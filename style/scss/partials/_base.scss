@@ -15,17 +15,22 @@ body {
 
 a:link { text-decoration: none; } // Removes underline from hyperlinks
 
-.chat-font {
+h1 {
 	font-family: 'Unica One', cursive; // h1 typeface
-}
-
-// CLEAN UP SELECTORS BELOW THIS LINE 
-
-.h1-main {
 	font-size: 14vh;
 	text-transform: uppercase;
 	text-align: center;
+	color:	$brown25;
 }
+
+h2 { 						///	controls choice button font-size in portrait
+	margin: 0; 				///	controls choice button font-size in portrait
+	padding: 0; 			///	controls choice button font-size in portrait
+	font-weight: normal;	///	controls choice button font-size in portrait
+	font-size:	3vw;		///	controls choice button font-size in portrait
+}
+
+// CLEAN UP SELECTORS BELOW THIS LINE 
 
 .h1-embiggen {
 	font-size: 24vh;
