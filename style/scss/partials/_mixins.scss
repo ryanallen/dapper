@@ -1,0 +1,9 @@
+@mixin flex1 {
+	display:	flex;	// so strong
+	flex:		1;		// relative unit of 1
+}
+
+@mixin flex2 {
+	display:	flex;	// so strong
+	flex:		2;		// relative unit of 1
+}

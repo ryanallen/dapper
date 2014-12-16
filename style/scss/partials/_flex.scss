@@ -1,13 +1,3 @@
-////////////////////////////////////////////////////////////////////////////////
-// DISCARD WHEN DONE                                     //
-////////////////////////////////////////////////////////////////////////////////
-@for $flex-unit from 1 through 10 {
-	.flex#{$flex-unit} {
-		display: flex; flex: $flex-unit; 
-	}
-}
-////////////
-
 .frame-brown {
 	background-color:	$brown15;	// Dark Brown (15 brightness)
 	display:			flex;		// flexbox parent. all grown up and in charge.
@@ -35,6 +25,15 @@
 	box-shadow:			inset 0 0.5rem 0 0 $blue20;	// Dark blue inner (inset) drop shadow
 	@include			flex2;		// 2/3 of the vertical
 	margin-bottom:		1rem;		// Bottom margin set to keep from touching choices
+}
+
+////////////////////////////////////////////////////////////////////////////////
+// DISCARD WHEN DONE                                     //
+////////////////////////////////////////////////////////////////////////////////
+@for $flex-unit from 1 through 10 {
+	.flex#{$flex-unit} {
+		display: flex; flex: $flex-unit; 
+	}
 }
 
 .column {
