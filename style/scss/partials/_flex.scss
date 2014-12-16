@@ -6,11 +6,11 @@
 }
 
 .box__1--blue50 {
+	@include 			flex1;		// container fills all space
 	background-color:	$blue50;	// background Blue
 	border-radius:  	1rem;		// rounded corners
 	box-shadow:			0 .5rem 0 0 $blue10;	// vertical, no blur, dark blue
 	flex-direction: 	column;		// flexbox stacks vertically in a column
-	@include 			flex1;		// container fills all space
 	padding:			1rem;		// sets the size of the frame
 }
 
@@ -25,10 +25,10 @@
 }
 
 .scene {
+	@include			flex2;		// 2/3 of the vertical
 	background-color:	$blue30;	// background a bit darker due to being inset
 	border-radius:  	.5rem;		// smaller corners for inner containers, .5 instead of 1
 	box-shadow:			inset 0 0.5rem 0 0 $blue20;	// dark blue inner (inset) drop shadow
-	@include			flex2;		// 2/3 of the vertical
 	margin-bottom:		1rem;		// bottom margin set to keep from touching choices
 }
 
@@ -39,6 +39,11 @@
 	box-shadow:			inset 0 0.5rem 0 0 $blue20;	// dark blue inner (inset) drop shadow
 	padding:				1rem;	// sets the size of the frame
 	// _meda-queries.scss orientation changes this to column
+}
+
+.choices__button {
+	@
+	flex1 blue__bg--40 margin3 blue__drop-shadow--20 border-radius5 horizontal-center vertical-center blue__hover--35
 }
 
 ////////////////////////////////////////////////////////////////////////////////
