@@ -25,25 +25,39 @@
 }
 
 .scene {
-	@include			flex2;		// 2/3 of the vertical
-	background-color:	$blue30;	// background a bit darker due to being inset
-	border-radius:  	.5rem;		// smaller corners for inner containers, .5 instead of 1
+	@include			flex2;						// 2/3 of the vertical
+	background-color:	$blue30;					// background a bit darker due to being inset
+	border-radius:  	.5rem;						// smaller corners for inner containers, .5 instead of 1
 	box-shadow:			inset 0 0.5rem 0 0 $blue20;	// dark blue inner (inset) drop shadow
-	margin-bottom:		1rem;		// bottom margin set to keep from touching choices
+	margin-bottom:		1rem;						// bottom margin set to keep from touching choices
 }
 
 .choices {
-	@include	flex1;	// container fills all space
-	background-color: $blue30;
-	border-radius:  	.5rem;		// smaller corners for inner containers, .5 instead of 1
+	@include			flex1;						// container fills all space
+	background-color:	$blue30;
+	border-radius:  	.5rem;						// smaller corners for inner containers, .5 instead of 1
 	box-shadow:			inset 0 0.5rem 0 0 $blue20;	// dark blue inner (inset) drop shadow
-	padding:				1rem;	// sets the size of the frame
+	padding:			1rem;						// sets the size of the frame
 	// _meda-queries.scss orientation changes this to column
 }
 
 .choices__button {
-	@
-	flex1 blue__bg--40 margin3 blue__drop-shadow--20 border-radius5 horizontal-center vertical-center blue__hover--35
+	@include			flex1; // button fills the box
+	background-color:	$blue40;
+	margin:				.3rem;
+	box-shadow:			0 0.3rem 0 0 $blue20;	// lower than choices to reflect less lighting, also not inset
+	border-radius:  	.5rem;
+	justify-content:   	center;	// centers text on the x axis
+	align-items:       	center;	// centers text on the y axis
+	font-family: 		'Lato', sans-serif; // Choices typeface
+	color:	$blue85;
+	font-size:	3vw;
+
+}
+
+.choices__button:hover {
+	background-color:	$blue35;
+	box-shadow:			none;	// removes the front of the button (dropshadow)
 }
 
 ////////////////////////////////////////////////////////////////////////////////

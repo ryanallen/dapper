@@ -5,13 +5,13 @@
 		font-size: 7vmin;
 	}
 
-	.choice-fontsize {
-		font-size:	3vmin;
-	}
-
 	.choices {
 		flex-direction: column;
 	}
+
+	.choices__button {
+	font-size:	5vw;
+}
 
 	.hide {
 		display: none; // HIDES SELECTOR ON PORTRAIT
@@ -21,10 +21,6 @@
 @media all and (orientation: landscape) {
 	.h1-main {
 		font-size: 7vw;
-	}
-
-.choice-fontsize {
-		font-size:	2.5vw;
 	}
 }
 
