@@ -32,6 +32,12 @@
 	margin-bottom:		1rem;						// bottom margin set to keep from touching choices
 }
 
+.chat-cloud {
+	@include	flex2;		// 2/3 of the vertical
+	padding:	2rem 0 1rem;	// 2 on the top 10 on the bottom
+}
+	
+
 .choices {
 	@include			flex1;						// container fills all space
 	background-color:	$blue30;
@@ -50,8 +56,13 @@
 	justify-content:   	center;	// centers text on the x axis
 	align-items:       	center;	// centers text on the y axis
 	font-family: 		'Lato', sans-serif; // Choices typeface
-	color:	$blue85;
+	color:	$blue70;
 	font-size:	3vw;
+
+}
+
+.bioware-style-conversation-wheel {
+	@include	flex1;	// button fills the box
 
 }
 
