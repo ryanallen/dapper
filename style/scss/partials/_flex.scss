@@ -19,6 +19,11 @@
 	flex-direction:	column;	// vertical stack of scene then choices
 }
 
+.box__4--column {
+	@include		flex4;	// container fills all space
+	flex-direction:	column;	// vertical stack of scene then choices
+}
+
 .scene {
 	background-color:	$blue30;	// background a bit darker due to being inset
 	border-radius:  	.5rem;		// smaller corners for inner containers, .5 instead of 1

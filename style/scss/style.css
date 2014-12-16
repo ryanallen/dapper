@@ -5875,6 +5875,11 @@ a:link {
   flex: 1;
   flex-direction: column; }
 
+.box__4--column {
+  display: flex;
+  flex: 4;
+  flex-direction: column; }
+
 .scene {
   background-color: #3d4a5c;
   border-radius: .5rem;

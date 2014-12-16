@@ -5889,6 +5889,17 @@ a:link {
   -ms-flex-direction: column;
   flex-direction: column; }
 
+.box__4--column {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
 .scene {
   background-color: #3d4a5c;
   border-radius: .5rem;
