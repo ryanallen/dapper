@@ -1,9 +1,6 @@
 // DETECT ORIENTATION
 
 @media all and (orientation: portrait) {
-	.h1-main {
-		font-size: 7vmin;
-	}
 
 	.choices {
 		flex-direction: column;
@@ -18,10 +15,3 @@
 		display: none; // hides conversation wheel when the screen is taller vertically than horizontally
 	}
 }
-
-@media all and (orientation: landscape) {
-	.h1-main {
-		font-size: 7vw;
-	}
-}
-

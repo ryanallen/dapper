@@ -5843,7 +5843,7 @@ a:link {
 
 h1 {
   font-family: 'Unica One', cursive;
-  font-size: 14vh;
+  font-size: 12vmin;
   text-transform: uppercase;
   text-align: center;
   color: #464439; }
@@ -6186,9 +6186,6 @@ h2 {
   width: 200px; }
 
 @media all and (orientation: portrait) {
-  .h1-main {
-    font-size: 7vmin; }
-
   .choices {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -6199,6 +6196,3 @@ h2 {
 
   .bioware-style-conversation-wheel {
     display: none; } }
-@media all and (orientation: landscape) {
-  .h1-main {
-    font-size: 7vw; } }
