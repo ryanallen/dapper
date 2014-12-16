@@ -18,6 +18,8 @@
 .flex1 {display: flex; flex: 1;}
 .flex2 {display: flex; flex: 2;}
 .flex3 {display: flex; flex: 3;}
+.flex4 {display: flex; flex: 4;}
+.flex5 {display: flex; flex: 5;}
 
 ////////////////////////////////////////////////////////////////////////////////
 // ALIGNMENT                                                                  //
@@ -50,6 +52,7 @@
 .pad10 { padding:  1rem; }
 .pad20 { padding:  2rem; }
 
+.pad10--top		{ padding-top:		1rem; } // padding top
 .pad20--top		{ padding-top:		2rem; } // padding top
 .pad20--bottom	{ padding-bottom:	2rem; } // padding bottom
 .pad20--right	{ padding-right:    2rem; } // padding top

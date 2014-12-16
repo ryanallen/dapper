@@ -5841,10 +5841,10 @@ body {
 a:link {
   text-decoration: none; }
 
-.vollkorn {
-  font-family: 'Vollkorn', serif; }
+.choice-font {
+  font-family: 'Lato', sans-serif; }
 
-.unica-one {
+.chat-font {
   font-family: 'Unica One', cursive; }
 
 .h1-main {
@@ -5892,6 +5892,22 @@ a:link {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3; }
+
+.flex4 {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 4;
+  -ms-flex: 4;
+  flex: 4; }
+
+.flex5 {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5; }
 
 .horizontal-center {
   -webkit-justify-content: center;
@@ -5959,6 +5975,9 @@ a:link {
 
 .pad20 {
   padding: 2rem; }
+
+.pad10--top {
+  padding-top: 1rem; }
 
 .pad20--top {
   padding-top: 2rem; }
