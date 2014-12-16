@@ -5855,7 +5855,7 @@ a:link {
 .h1-embiggen {
   font-size: 24vh; }
 
-.frame-brown {
+.box {
   background-color: #2a2922;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5863,8 +5863,8 @@ a:link {
   height: 100%;
   padding: 1rem; }
 
-.frame-blue {
-  background-color: #52637a;
+.box__blue {
+  background-color: #667b99;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 0 0 #14191f;
   -webkit-flex-direction: column;
@@ -5878,7 +5878,7 @@ a:link {
   flex: 1;
   padding: 1rem; }
 
-.app-container {
+.dapper-container {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;

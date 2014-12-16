@@ -1,12 +1,12 @@
-.frame-brown {
+.box {
 	background-color:	$brown15;	// Dark Brown (15 brightness)
 	display:			flex;		// flexbox parent. all grown up and in charge.
 	height:				100%;		// makes for no scrolling
 	padding:			1rem;		// 14px
 }
 
-.frame-blue {
-	background-color:	$blue40;	// Background Blue
+.box__blue {
+	background-color:	$blue50;	// Background Blue
 	border-radius:  	1rem;		// Rounded corners
 	box-shadow:			0 .5rem 0 0 $blue10;	// vertical, no blur, dark blue
 	flex-direction: 	column;		// flexbox stacks vertically in a column
@@ -14,7 +14,7 @@
 	padding:			1rem;		// sets the size of the frame
 }
 
-.app-container {
+.dapper-container {
 	@include		flex1;	// flex grow and shrink 1
 	flex-direction:	column;	// vertical stack of scene then choices
 }
@@ -25,6 +25,10 @@
 	box-shadow:			inset 0 0.5rem 0 0 $blue20;	// Dark blue inner (inset) drop shadow
 	@include			flex2;		// 2/3 of the vertical
 	margin-bottom:		1rem;		// Bottom margin set to keep from touching choices
+}
+
+.choices {
+
 }
 
 ////////////////////////////////////////////////////////////////////////////////
