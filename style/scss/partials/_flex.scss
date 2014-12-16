@@ -20,9 +20,13 @@
 	border-radius:  	1rem;		// Rounded corners
 	box-shadow:			0 .5rem 0 0 $blue10;	// vertical, no blur, dark blue
 	flex-direction: 	column;		// flexbox stacks vertically in a column
-	@include 			flex1;		// so strong
+	@include 			flex1;		// flex grow and shrink 1
 	padding:			1rem;		// sets the size of the frame
+}
 
+.app-container {
+	@include		flex1;	// flex grow and shrink 1
+	flex-direction:	column;	// vertical stack of scene then choices
 }
 
 .column {

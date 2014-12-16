@@ -5910,6 +5910,11 @@ a:link {
   flex: 1;
   padding: 1rem; }
 
+.app-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column; }
+
 .column {
   flex-direction: column; }
 
