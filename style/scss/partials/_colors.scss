@@ -1,93 +1,4 @@
-/// BROWN
-$brown15: #2a2922;
-
-/// BLUE
-$blue-hue: 215deg;
-$blue-sat: 20%;
-
-$blue10: hsl($blue-hue, $blue-sat, 10);
-$blue20: hsl($blue-hue, $blue-sat, 20);
-$blue30: hsl($blue-hue, $blue-sat, 30);
-$blue40: hsl($blue-hue, $blue-sat, 40);
-
-////////////////////////////////////////////////////////////////////////////////
-// BLUE                                                                       //
-////////////////////////////////////////////////////////////////////////////////
-
-
-
-
-@for $blue-brt from 0 through 100 {
-	.blue__bg--#{$blue-brt} {
-		background-color: hsl($blue-hue, $blue-sat, $blue-brt);
-	}
-}
-@for $blue-brt from 0 through 100 {
-	.blue__color--#{$blue-brt} {
-		color: hsl($blue-hue, $blue-sat, $blue-brt);
-	}
-}
-@for $blue-brt from 0 through 100 {
-	.blue__drop-shadow--#{$blue-brt} {
-		box-shadow: 0 .5rem 0 0 hsl($blue-hue, $blue-sat, $blue-brt);
-	}
-}
-@for $blue-brt from 0 through 100 {
-	.blue__fill--#{$blue-brt} {
-		fill: hsl($blue-hue, $blue-sat, $blue-brt);
-	}
-}
-@for $blue-brt from 0 through 100 {
-	.blue__hover--#{$blue-brt}:hover {
-		background-color: hsl($blue-hue, $blue-sat, $blue-brt);
-		box-shadow: none;
-	}
-}
-@for $blue-brt from 0 through 100 {
-	.blue__inner-shadow--#{$blue-brt} {
-		box-shadow: inset 0 .5rem 0 0 hsl($blue-hue, $blue-sat, $blue-brt);
-	}
-}
-
-
-////////////////////////////////////////////////////////////////////////////////
-// BROWN                                                                      //
-////////////////////////////////////////////////////////////////////////////////
-
-$brown-hue: 50deg;
-$brown-sat: 10%;
-
-@for $brown-brt from 0 through 100 {
-	.brown__bg--#{$brown-brt} {
-		background-color: hsl($brown-hue, $brown-sat, $brown-brt);
-	}
-}
-@for $brown-brt from 0 through 100 {
-	.brown__color--#{$brown-brt} {
-		color: hsl($brown-hue, $brown-sat, $brown-brt);
-	}
-}
-@for $brown-brt from 0 through 100 {
-	.brown__drop-shadow--#{$brown-brt} {
-		box-shadow: 0 .5rem 0 0 hsl($brown-hue, $brown-sat, $brown-brt);
-	}
-}
-@for $brown-brt from 0 through 100 {
-	.brown__fill--#{$brown-brt} {
-		fill: hsl($brown-hue, $brown-sat, $brown-brt);
-	}
-}
-@for $brown-brt from 0 through 100 {
-	.brown__hover--#{$brown-brt}:hover {
-		background-color: hsl($brown-hue, $brown-sat, $brown-brt);
-		box-shadow: none;
-	}
-}
-@for $brown-brt from 0 through 100 {
-	.brown__inner-shadow--#{$brown-brt} {
-		box-shadow: inset 0 .5rem 0 0 hsl($brown-hue, $brown-sat, $brown-brt);
-	}
-}
+/// To experiment use the _color-generator partial
 
 ////////////////////////////////////////////////////////////////////////////////
 // RED                                                                        //
@@ -96,34 +7,39 @@ $brown-sat: 10%;
 $red-hue: 13deg;
 $red-sat: 85%;
 
-@for $red-brt from 0 through 100 {
-	.red__bg--#{$red-brt} {
-		background-color: hsl($red-hue, $red-sat, $red-brt);
-	}
-}
-@for $red-brt from 0 through 100 {
-	.red__color--#{$red-brt} {
-		color: hsl($red-hue, $red-sat, $red-brt);
-	}
-}
-@for $red-brt from 0 through 100 {
-	.red__drop-shadow--#{$red-brt} {
-		box-shadow: 0 .5rem 0 0 hsl($red-hue, $red-sat, $red-brt);
-	}
-}
-@for $red-brt from 0 through 100 {
-	.red__fill--#{$red-brt} {
-		fill: hsl($red-hue, $red-sat, $red-brt);
-	}
-}
-@for $red-brt from 0 through 100 {
-	.red__hover--#{$red-brt}:hover {
-		background-color: hsl($red-hue, $red-sat, $red-brt);
-		box-shadow: none;
-	}
-}
-@for $red-brt from 0 through 100 {
-	.red__inner-shadow--#{$red-brt} {
-		box-shadow: inset 0 .5rem 0 0 hsl($red-hue, $red-sat, $red-brt);
-	}
-}
+$red40: hsl($red-hue, $red-sat, 40);
+$red45: hsl($red-hue, $red-sat, 45);
+
+////////////////////////////////////////////////////////////////////////////////
+// BROWN                                                                      //
+////////////////////////////////////////////////////////////////////////////////
+
+$brown-hue: 50deg;
+$brown-sat: 10%;
+
+$brown15: hsl($brown-hue, $brown-sat, 15);
+$brown20: hsl($brown-hue, $brown-sat, 20);
+$brown25: hsl($brown-hue, $brown-sat, 25);
+$brown30: hsl($brown-hue, $brown-sat, 30);
+$brown40: hsl($brown-hue, $brown-sat, 40);
+$brown50: hsl($brown-hue, $brown-sat, 50);
+$brown60: hsl($brown-hue, $brown-sat, 60);
+$brown65: hsl($brown-hue, $brown-sat, 65);
+$brown75: hsl($brown-hue, $brown-sat, 75);
+$brown80: hsl($brown-hue, $brown-sat, 80);
+$brown85: hsl($brown-hue, $brown-sat, 85);
+
+////////////////////////////////////////////////////////////////////////////////
+// BLUE                                                                       //
+////////////////////////////////////////////////////////////////////////////////
+
+$blue-hue: 215deg;
+$blue-sat: 20%;
+
+$blue10: hsl($blue-hue, $blue-sat, 10);
+$blue20: hsl($blue-hue, $blue-sat, 20);
+$blue30: hsl($blue-hue, $blue-sat, 30);
+$blue35: hsl($blue-hue, $blue-sat, 35);
+$blue40: hsl($blue-hue, $blue-sat, 40);
+$blue60: hsl($blue-hue, $blue-sat, 60);
+$blue85: hsl($blue-hue, $blue-sat, 85);

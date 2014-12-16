@@ -1,6 +1,39 @@
-.shell {
-  height: 100%; // bo takes up 100% width automatically, this makes it fill the height as well.
-  display: flex; // flexbox parent. all grown up and in charge.
+////////////////////////////////////////////////////////////////////////////////
+// DISCARD WHEN DONE                                     //
+////////////////////////////////////////////////////////////////////////////////
+@for $flex-unit from 1 through 10 {
+	.flex#{$flex-unit} {
+		display: flex; flex: $flex-unit; 
+	}
+}
+////////////
+
+
+@mixin flex1 {
+	display:	flex;	// so strong
+	flex:		1;		// relative unit of 1
+}
+
+@mixin flex2 {
+	display:	flex;	// so strong
+	flex:		2;		// relative unit of 1
+}
+
+.frame-brown {
+	background-color:	$brown15;	// Dark Brown (15 brightness)
+	display:			flex;		// flexbox parent. all grown up and in charge.
+	height:				100%;		// makes for no scrolling
+	padding:			1rem;		// 14px
+}
+
+.frame-blue {
+	background-color:	$blue40;	// Background Blue
+	border-radius:  	1rem;		// Rounded corners
+	box-shadow:			0 .5rem 0 0 $blue10;	// vertical, no blur, dark blue
+	@include 			flex1;		// so strong
+	flex-direction: 	column;		// flexbox stacks vertically in a column
+	padding:			1rem;		// sets the size of the frame
+
 }
 
 .column {
@@ -15,20 +48,7 @@
 	z-index: 10;
 }
 
-////////////////////////////////////////////////////////////////////////////////
-// SET FLEXBOX AND THEIR RELATIVE SIZES                                       //
-////////////////////////////////////////////////////////////////////////////////
 
-.flex1 {display: flex; flex: 1;}
-.flex2 {display: flex; flex: 2;}
-.flex3 {display: flex; flex: 3;}
-.flex4 {display: flex; flex: 4;}
-.flex5 {display: flex; flex: 5;}
-.flex6 {display: flex; flex: 6;}
-.flex7 {display: flex; flex: 7;}
-.flex8 {display: flex; flex: 8;}
-.flex9 {display: flex; flex: 9;}
-.flex10 {display: flex; flex: 10;}
 
 ////////////////////////////////////////////////////////////////////////////////
 // ALIGNMENT                                                                  //

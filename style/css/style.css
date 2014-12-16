@@ -5855,23 +5855,6 @@ a:link {
 .h1-embiggen {
   font-size: 24vh; }
 
-.shell {
-  height: 100%;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; }
-
-.column {
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column; }
-
-.overflow-hidden {
-  overflow: hidden; }
-
-.z10 {
-  z-index: 10; }
-
 .flex1 {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5951,6 +5934,40 @@ a:link {
   -webkit-flex: 10;
   -ms-flex: 10;
   flex: 10; }
+
+.frame-brown {
+  background-color: #2a2922;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding: 1rem; }
+
+.frame-blue {
+  background-color: #52637a;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 0 0 #14191f;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 1rem; }
+
+.column {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.overflow-hidden {
+  overflow: hidden; }
+
+.z10 {
+  z-index: 10; }
 
 .horizontal-center {
   -webkit-justify-content: center;
