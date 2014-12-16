@@ -5969,6 +5969,18 @@ a:link {
   -ms-flex-direction: column;
   flex-direction: column; }
 
+.scene {
+  background-color: #3d4a5c;
+  border-radius: .5rem;
+  box-shadow: inset 0 0.5rem 0 0 #29313d;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  margin-bottom: 1rem; }
+
 .column {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;

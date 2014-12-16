@@ -5915,6 +5915,14 @@ a:link {
   flex: 1;
   flex-direction: column; }
 
+.scene {
+  background-color: #3d4a5c;
+  border-radius: .5rem;
+  box-shadow: inset 0 0.5rem 0 0 #29313d;
+  display: flex;
+  flex: 2;
+  margin-bottom: 1rem; }
+
 .column {
   flex-direction: column; }
 

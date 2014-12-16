@@ -29,6 +29,14 @@
 	flex-direction:	column;	// vertical stack of scene then choices
 }
 
+.scene {
+	background-color:	$blue30;	// Background a bit darker due to being inset
+	border-radius:  	.5rem;		// Smaller corners for inner containers, .5 instead of 1
+	box-shadow:			inset 0 0.5rem 0 0 $blue20;	// Dark blue inner (inset) drop shadow
+	@include			flex2;		// 2/3 of the vertical
+	margin-bottom:		1rem;		// Bottom margin set to keep from touching choices
+}
+
 .column {
   flex-direction: column; // sets flexbox to stack boxes vertically in a column.
 }
