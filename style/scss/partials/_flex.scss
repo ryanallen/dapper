@@ -8,17 +8,6 @@
 }
 ////////////
 
-
-@mixin flex1 {
-	display:	flex;	// so strong
-	flex:		1;		// relative unit of 1
-}
-
-@mixin flex2 {
-	display:	flex;	// so strong
-	flex:		2;		// relative unit of 1
-}
-
 .frame-brown {
 	background-color:	$brown15;	// Dark Brown (15 brightness)
 	display:			flex;		// flexbox parent. all grown up and in charge.
@@ -30,8 +19,8 @@
 	background-color:	$blue40;	// Background Blue
 	border-radius:  	1rem;		// Rounded corners
 	box-shadow:			0 .5rem 0 0 $blue10;	// vertical, no blur, dark blue
-	@include 			flex1;		// so strong
 	flex-direction: 	column;		// flexbox stacks vertically in a column
+	@include 			flex1;		// so strong
 	padding:			1rem;		// sets the size of the frame
 
 }
