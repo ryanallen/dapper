@@ -5861,7 +5861,7 @@ a:link {
   height: 100%;
   padding: 1rem; }
 
-.box__blue {
+.box__1--blue50 {
   background-color: #667b99;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 0 0 #14191f;
@@ -5870,7 +5870,7 @@ a:link {
   flex: 1;
   padding: 1rem; }
 
-.dapper-container {
+.box__1--column {
   display: flex;
   flex: 1;
   flex-direction: column; }
@@ -5882,6 +5882,14 @@ a:link {
   display: flex;
   flex: 2;
   margin-bottom: 1rem; }
+
+.choices {
+  display: flex;
+  flex: 1;
+  background-color: #3d4a5c;
+  border-radius: .5rem;
+  box-shadow: inset 0 0.5rem 0 0 #29313d;
+  padding: 1rem; }
 
 .flex1 {
   display: flex;
@@ -6053,7 +6061,7 @@ a:link {
   .choice-fontsize {
     font-size: 3vmin; }
 
-  .choice-orientation {
+  .choices {
     flex-direction: column; }
 
   .hide {
