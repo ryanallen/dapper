@@ -8,9 +8,9 @@
 .box__1--blue50 {
 	@include 			flex1;		// container fills all space
 	background-color:	$blue50;	// background blue
-	border-radius:  	1rem;		// rounded corners
+	border-radius:		1rem;		// rounded corners
 	box-shadow:			0 .5rem 0 0 $blue10;	// vertical, no blur, dark blue
-	flex-direction: 	column;		// flexbox stacks vertically in a column
+	flex-direction:		column;		// flexbox stacks vertically in a column
 	padding:			1rem;		// sets the size of the frame
 }
 
@@ -27,24 +27,24 @@
 .scene {
 	@include			flex2;						// 2/3 of the vertical
 	background-color:	$blue30;					// background a bit darker due to being inset
-	border-radius:  	.5rem;						// smaller corners for inner containers, .5 instead of 1
+	border-radius:		.5rem;						// smaller corners for inner containers, .5 instead of 1
 	box-shadow:			inset 0 0.5rem 0 0 $blue20;	// dark blue inner (inset) drop shadow
 	margin-bottom:		1rem;						// bottom margin set to keep from touching choices
 }
 
 .chat {
 	@include			flex2;			// 2/3 of the vertical
-	padding:			3rem;			// 2 on the top 10 on the bottom
-	background-color:	$brown75;		// white was overpowering
+	align-items:		center;			// centers text vertically. *flex
+	background-color:	$brown75;		// white was 
+	border-radius:		1rem;			// rounded corners are fly 
 	margin:				2rem 0 1rem;	// pulls chat clouc away from the edges
-	border-radius:  	1rem;			// rounded corners are fly again
-}
+	padding:			3rem;			// 2 on the top 10 on the bottom}
 	
 
 .choices {
 	@include			flex1;						// container fills all space
 	background-color:	$blue30;
-	border-radius:  	.5rem;						// smaller corners for inner containers, .5 instead of 1
+	border-radius:		.5rem;						// smaller corners for inner containers, .5 instead of 1
 	box-shadow:			inset 0 0.5rem 0 0 $blue20;	// dark blue inner (inset) drop shadow
 	padding:			1rem;						// sets the size of the frame
 	// _meda-queries.scss orientation changes this to column
@@ -52,13 +52,13 @@
 
 .choices__button {
 	@include			flex1; // button fills the box
+	align-items:		center;	// centers text on the y axis
 	background-color:	$blue40;
 	margin:				.3rem;
 	box-shadow:			0 0.3rem 0 0 $blue20;	// lower than choices to reflect less lighting, also not inset
-	border-radius:  	.5rem;
-	justify-content:   	center;	// centers text on the x axis
-	align-items:       	center;	// centers text on the y axis
-	font-family: 		'Lato', sans-serif; // Choices typeface
+	border-radius:		.5rem;
+	justify-content:	center;	// centers text on the x axis
+	font-family:		'Lato', sans-serif; // Choices typeface
 	color:	$blue70;
 
 }
@@ -83,11 +83,11 @@
 }
 
 .column {
-  flex-direction: column; // sets flexbox to stack boxes vertically in a column.
+	flex-direction: column; // sets flexbox to stack boxes vertically in a column.
 }
 
 .overflow-hidden {
-  overflow: hidden;
+	overflow: hidden;
 }
 
 .z10 {
