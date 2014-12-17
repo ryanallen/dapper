@@ -38,11 +38,15 @@
 
 .chat {
 	@include			flex2;			// 2/3 of the vertical
+	background-color:	$brown75;		// white was so overpowering
+	border-radius:		1rem;			// rounded corners are fly - static corners
+	padding:			3vmin;			// used to keep h1 text from fighting with the edges - dynamic padding
+	margin:				3vmin 0;		// dynamic margins
+}
+
+.chat__cloud {
+	@include			flex1;			// fill the chat box (minus the padding)
 	align-items:		center;			// centers text vertically. *flex
-	background-color:	$brown75;		// white was 
-	border-radius:		1rem;			// rounded corners are fly 
-	margin:				2rem 0 1rem;	// pulls chat clouc away from the edges
-	// padding:			3rem;			// note that this causes text to break the box
 }
 	
 

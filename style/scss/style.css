@@ -5904,10 +5904,15 @@ a:link {
 .chat {
   display: flex;
   flex: 2;
-  align-items: center;
   background-color: #c6c3b9;
   border-radius: 1rem;
-  margin: 2rem 0 1rem; }
+  padding: 3vmin;
+  margin: 3vmin 0; }
+
+.chat__cloud {
+  display: flex;
+  flex: 1;
+  align-items: center; }
 
 .choices {
   display: flex;
