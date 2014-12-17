@@ -5914,14 +5914,17 @@ h2 {
   box-shadow: inset 0 0.5rem 0 0 #29313d;
   margin-bottom: 1rem; }
 
-.chat-cloud {
+.chat {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-flex: 2;
   -ms-flex: 2;
   flex: 2;
-  padding: 2rem 0 1rem; }
+  padding: 3rem;
+  background-color: #c6c3b9;
+  margin: 2rem 0 1rem;
+  border-radius: 1rem; }
 
 .choices {
   display: -webkit-flex;
