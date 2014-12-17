@@ -88,7 +88,8 @@
 
 }
 
-.choices__button:hover {
+.choices__button:hover,
+.choices__button--2:hover {
 	background-color:	$blue35;
 	box-shadow:			none;	// removes the front of the button (dropshadow)
 }

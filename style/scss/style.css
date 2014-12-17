@@ -5962,7 +5962,8 @@ a:link {
   display: flex;
   flex: 1; }
 
-.choices__button:hover {
+.choices__button:hover,
+.choices__button--2:hover {
   background-color: #47566b;
   box-shadow: none; }
 
