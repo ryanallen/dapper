@@ -5844,14 +5844,22 @@ a:link {
 .h1-embiggen {
   font-size: 24vh; }
 
-.h1__index {
+.h1__12 {
   font-family: 'Unica One', cursive;
-  font-size: 12vmin;
   text-transform: uppercase;
   text-align: center;
-  color: #464439; }
+  color: #464439;
+  font-size: 12vmin; }
 
-.h2__choices {
+.h1__8 {
+  font-family: 'Unica One', cursive;
+  text-transform: uppercase;
+  text-align: center;
+  color: #464439;
+  font-size: 8vmin; }
+
+.h2__3 {
+  font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
   font-weight: normal;
@@ -5863,6 +5871,9 @@ a:link {
   display: -ms-flexbox;
   display: flex;
   height: 100%;
+  padding: 1rem; }
+
+.pad10 {
   padding: 1rem; }
 
 .box__1--blue50 {
@@ -5957,7 +5968,6 @@ a:link {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  font-family: 'Lato', sans-serif;
   color: #a3b0c2; }
 
 .bioware-style-conversation-wheel {

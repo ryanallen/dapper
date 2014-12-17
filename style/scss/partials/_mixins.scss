@@ -12,3 +12,17 @@
 	display:	flex;	// so strong
 	flex:		4;		// relative unit of 1
 }
+
+@mixin h1 {										///	chat cloud type
+	font-family:	'Unica One', cursive;
+	text-transform:	uppercase;
+	text-align:		center;
+	color:			$brown25;
+}
+
+@mixin h2 {										///	chat button type
+	font-family:	'Lato', sans-serif;
+	margin:			0;
+	padding:		0;
+	font-weight:	normal;
+}

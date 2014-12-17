@@ -5,6 +5,10 @@
 	padding:			1rem;		// 14px
 }
 
+.pad10 {
+	padding:			1rem;
+}
+
 .box__1--blue50 {
 	@include 			flex1;		// container fills all space
 	background-color:	$blue50;	// background blue
@@ -59,7 +63,6 @@
 	box-shadow:			0 0.3rem 0 0 $blue20;	// lower than choices to reflect less lighting, also not inset
 	border-radius:		.5rem;
 	justify-content:	center;	// centers text on the x axis
-	font-family:		'Lato', sans-serif; // Choices typeface
 	color:	$blue70;
 
 }
