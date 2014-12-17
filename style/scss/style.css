@@ -5865,6 +5865,13 @@ a:link {
   color: #464439;
   font-size: 8vmin; }
 
+.h1__6 {
+  font-family: 'Unica One', cursive;
+  text-transform: uppercase;
+  text-align: center;
+  color: #464439;
+  font-size: 7vmin; }
+
 .h2__3 {
   font-family: 'Lato', sans-serif;
   margin: 0;
@@ -5932,6 +5939,17 @@ a:link {
 .choices__button {
   display: flex;
   flex: 1;
+  align-items: center;
+  background-color: #52637a;
+  margin: .3rem;
+  box-shadow: 0 0.3rem 0 0 #29313d;
+  border-radius: .5rem;
+  justify-content: center;
+  color: #a3b0c2; }
+
+.choices__button--2 {
+  display: flex;
+  flex: 2;
   align-items: center;
   background-color: #52637a;
   margin: .3rem;

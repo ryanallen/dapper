@@ -71,6 +71,18 @@
 
 }
 
+.choices__button--2 {
+	@include			flex2; // button fills the box
+	align-items:		center;	// centers text on the y axis
+	background-color:	$blue40;
+	margin:				.3rem;
+	box-shadow:			0 0.3rem 0 0 $blue20;	// lower than choices to reflect less lighting, also not inset
+	border-radius:		.5rem;
+	justify-content:	center;	// centers text on the x axis
+	color:	$blue70;
+
+}
+
 .bioware-style-conversation-wheel {
 	@include	flex1;	// button fills the box
 
