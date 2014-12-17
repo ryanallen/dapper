@@ -15,21 +15,6 @@ body {
 
 a:link { text-decoration: none; } // Removes underline from hyperlinks
 
-h1 {
-	font-family: 'Unica One', cursive; // h1 typeface
-	font-size: 12vmin;
-	text-transform: uppercase;
-	text-align: center;
-	color:	$brown25;
-}
-
-h2 { 						///	controls choice button font-size in portrait
-	margin: 0; 				///	controls choice button font-size in portrait
-	padding: 0; 			///	controls choice button font-size in portrait
-	font-weight: normal;	///	controls choice button font-size in portrait
-	font-size:	3vw;		///	controls choice button font-size in portrait
-}
-
 // CLEAN UP SELECTORS BELOW THIS LINE 
 
 .h1-embiggen {
