@@ -72,6 +72,7 @@
 
 	.scene__adventure {
 		@include	scene;	///	sets the scene flex, border radius, shadow and bottom margin
+		background-color:	$blue30;	/// background a bit darker due to being inset
 	}
 
 .chat {

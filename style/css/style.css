@@ -5948,7 +5948,8 @@ a:link {
   flex: 2;
   border-radius: .5rem;
   box-shadow: inset 0 0.5rem 0 0 #29313d;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  background-color: #3d4a5c; }
 
 .chat {
   display: -webkit-flex;
