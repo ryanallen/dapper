@@ -5887,9 +5887,6 @@ a:link {
   height: 100%;
   padding: 1rem; }
 
-.pad10 {
-  padding: 1rem; }
-
 .box__1--blue50 {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5927,6 +5924,9 @@ a:link {
   -ms-flex-direction: column;
   flex-direction: column; }
 
+.pad10 {
+  padding: 1rem; }
+
 .scene__index {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5938,6 +5938,17 @@ a:link {
   box-shadow: inset 0 0.5rem 0 0 #29313d;
   margin-bottom: 1rem;
   background-color: #3d4a5c; }
+
+.scene__adventure {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  border-radius: .5rem;
+  box-shadow: inset 0 0.5rem 0 0 #29313d;
+  margin-bottom: 1rem; }
 
 .chat {
   display: -webkit-flex;
