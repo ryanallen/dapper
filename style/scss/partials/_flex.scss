@@ -43,6 +43,14 @@ $svg-path : "../../img/svg/";
 	padding:			1rem;		/// 14px
 }
 
+.box1__blue-frame {
+	@include			flex1;		/// container fills all space
+	background-color:	$blue50;	/// background blue
+	border-radius:		1rem;		/// rounded corners
+	box-shadow:			0 .5rem 0 0 $blue10;	/// vertical, no blur, dark blue
+	flex-direction:		column;		/// flexbox stacks vertically in a column
+	padding:			1rem;		/// sets the size of the frame
+}
 
 .box1__astronaut-ryan {
 	@extend	.box1;	///	flex1
@@ -55,15 +63,6 @@ $svg-path : "../../img/svg/";
 .box2	{@include	flex2;}
 .box3	{@include	flex3;}
 .box4	{@include	flex4;}
-
-.box__1--blue50 {
-	@include			flex1;		/// container fills all space
-	background-color:	$blue50;	/// background blue
-	border-radius:		1rem;		/// rounded corners
-	box-shadow:			0 .5rem 0 0 $blue10;	/// vertical, no blur, dark blue
-	flex-direction:		column;		/// flexbox stacks vertically in a column
-	padding:			1rem;		/// sets the size of the frame
-}
 
 .box__1--column {
 	@include		flex1;	/// container fills all space

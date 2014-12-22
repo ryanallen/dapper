@@ -5888,6 +5888,15 @@ a:link {
   height: 100%;
   padding: 1rem; }
 
+.box1__blue-frame {
+  display: flex;
+  flex: 1;
+  background-color: #667b99;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 0 0 #14191f;
+  flex-direction: column;
+  padding: 1rem; }
+
 .box1__astronaut-ryan {
   background-image: url(../../img/svg/space-adventure__astronaut-ryan.svg);
   background-position: bottom;
@@ -5905,15 +5914,6 @@ a:link {
 .box4 {
   display: flex;
   flex: 4; }
-
-.box__1--blue50 {
-  display: flex;
-  flex: 1;
-  background-color: #667b99;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 0 0 #14191f;
-  flex-direction: column;
-  padding: 1rem; }
 
 .box__1--column {
   display: flex;
