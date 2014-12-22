@@ -22,6 +22,12 @@
 	flex:		4;		// relative unit of 4
 }
 
+///////////////////////
+///	SET VARIABLES	///
+///////////////////////
+
+$svg-path : "../../img/svg/";
+
 ///////////////////
 ///	CONTAINERS	///
 ///////////////////
@@ -32,13 +38,13 @@
 
 .box1__astronaut-ryan {
 	@extend	.box1;	///	flex1
-	background-image: url(../../img/svg/astronaut-ryan.svg);
+	background-image: url(#{$svg-path}space-adventure__astronaut-ryan.svg);
 	background-position: bottom;
 	background-repeat: no-repeat;
 	margin-top: 2vmin;
 }
 
-.box2	{@include	flex2; background-color: $brown80;}
+.box2	{@include	flex2;}
 .box3	{@include	flex3;}
 .box4	{@include	flex4;}
 
@@ -92,6 +98,7 @@
 	.scene__adventure {
 		@include	scene;	///	sets the scene flex, border radius, shadow and bottom margin
 		background-color:	$blue20;	/// background a bit darker due to being inset
+		background-image: url(#{$svg-path}space-adventure__stars.svg);
 	}
 
 .chat {

@@ -5888,7 +5888,7 @@ a:link {
   flex: 1; }
 
 .box1__astronaut-ryan {
-  background-image: url(../../img/svg/astronaut-ryan.svg);
+  background-image: url(../../img/svg/space-adventure__astronaut-ryan.svg);
   background-position: bottom;
   background-repeat: no-repeat;
   margin-top: 2vmin; }
@@ -5899,8 +5899,7 @@ a:link {
   display: flex;
   -webkit-flex: 2;
   -ms-flex: 2;
-  flex: 2;
-  background-color: #d1cfc7; }
+  flex: 2; }
 
 .box3 {
   display: -webkit-flex;
@@ -5988,7 +5987,8 @@ a:link {
   border-radius: .5rem;
   box-shadow: inset 0 0.5rem 0 0 #29313d;
   margin-bottom: 1rem;
-  background-color: #29313d; }
+  background-color: #29313d;
+  background-image: url(../../img/svg/space-adventure__stars.svg); }
 
 .chat {
   display: -webkit-flex;
