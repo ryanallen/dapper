@@ -57,13 +57,7 @@ $svg-path : "../../img/svg/";
 		padding:			1rem;		/// sets the size of the frame
 	}
 
-	.box1__astronaut-ryan {
-		@extend	.box1;	///	flex1
-		background-image: url(#{$svg-path}space-adventure__astronaut-ryan.svg);
-		background-position: bottom;
-		background-repeat: no-repeat;
-		margin-top: 2vmin;
-	}
+
 
 .box2	{@include	flex2;}
 .box3	{@include	flex3;}
@@ -113,6 +107,25 @@ $svg-path : "../../img/svg/";
 .chat__cloud {
 	@include			flex1;			/// fill the chat box (minus the padding)
 	align-items:		center;			/// centers text vertically. *flex
+}
+
+///////////////////////////////////
+///	SPACE ADVENTURE SCENE ITEMS	///
+///////////////////////////////////
+
+.scene__adventure--astronaut-ryan-bg{
+	@include				flex1;
+	background-image: 		url(#{$svg-path}space-adventure__astronaut-ryan.svg);
+	background-position:	bottom;
+	background-repeat:		no-repeat;
+	margin-top:				2vmin;
+}
+
+.scene__adventure--planet-comet-bg{
+	@include				flex1;
+	background-image:		url(#{$svg-path}space-adventure__planet-comet.svg);
+	background-position:	center;
+	background-repeat:		no-repeat;
 }
 
 ///////////////

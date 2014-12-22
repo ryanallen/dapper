@@ -5879,7 +5879,7 @@ a:link {
   font-weight: normal;
   font-size: 3vw; }
 
-.box1, .box1--column, .box1__shell, .box1__astronaut-ryan {
+.box1, .box1--column, .box1__shell {
   display: flex;
   flex: 1; }
 
@@ -5899,12 +5899,6 @@ a:link {
   box-shadow: 0 0.5rem 0 0 #14191f;
   flex-direction: column;
   padding: 1rem; }
-
-.box1__astronaut-ryan {
-  background-image: url(../../img/svg/space-adventure__astronaut-ryan.svg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  margin-top: 2vmin; }
 
 .box2 {
   display: flex;
@@ -5955,6 +5949,21 @@ a:link {
   display: flex;
   flex: 1;
   align-items: center; }
+
+.scene__adventure--astronaut-ryan-bg {
+  display: flex;
+  flex: 1;
+  background-image: url(../../img/svg/space-adventure__astronaut-ryan.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin-top: 2vmin; }
+
+.scene__adventure--planet-comet-bg {
+  display: flex;
+  flex: 1;
+  background-image: url(../../img/svg/space-adventure__planet-comet.svg);
+  background-position: center;
+  background-repeat: no-repeat; }
 
 .choices {
   display: flex;
