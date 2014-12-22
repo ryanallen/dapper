@@ -36,6 +36,14 @@ $svg-path : "../../img/svg/";
 
 .box1	{@include	flex1;}
 
+.box1__shell {
+	@extend				.box1;		///	flex1
+	background-color:	$brown15;	/// dark brown (15 brightness)
+	height:				100%;		/// makes for no scrolling
+	padding:			1rem;		/// 14px
+}
+
+
 .box1__astronaut-ryan {
 	@extend	.box1;	///	flex1
 	background-image: url(#{$svg-path}space-adventure__astronaut-ryan.svg);
@@ -47,13 +55,6 @@ $svg-path : "../../img/svg/";
 .box2	{@include	flex2;}
 .box3	{@include	flex3;}
 .box4	{@include	flex4;}
-
-.box {								///	block
-	background-color:	$brown15;	/// dark brown (15 brightness)
-	display:			flex;		/// flexbox parent. all grown up and in charge.
-	height:				100%;		/// makes for no scrolling
-	padding:			1rem;		/// 14px
-}
 
 .box__1--blue50 {
 	@include			flex1;		/// container fills all space
