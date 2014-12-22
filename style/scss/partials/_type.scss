@@ -1,22 +1,46 @@
-
-.h1__12 {								///	chat cloud type
-	@include		h1;
-	font-size:		12vmin;
+@mixin h1 {
+	font-family:	'Unica One', cursive;	///	cursive fallback if font fails
+	text-transform:	uppercase;				///	uppercase
+	text-align:		center;					///	horizontally centered
+	margin:			0;						///	no margin
+	padding:		0;						///	no padding
 }
 
-.h1__10 {								///	chat cloud type
-	@include		h1;
-	font-size:		10vmin;
+.h1__12 {
+	@include		h1;		///	unica one, uppercase, centered, no margin or padding
+	font-size:		12vmin;	/// relative font size
 }
 
-.h1__8 {								///	chat cloud type
-	@include		h1;
-	font-size:		8vmin;
+.h1__10 {
+	@include		h1;		///	unica one, uppercase, centered, no margin or padding
+	font-size:		10vmin;	/// relative font size
 }
 
-.h1__6 {								///	chat cloud type
-	@include		h1;
-	font-size:		7vmin;
+.h1__8 {
+	@include		h1;		///	unica one, uppercase, centered, no margin or padding
+	font-size:		8vmin;	/// relative font size
+}
+
+.h1__6 {
+	@include		h1;		///	unica one, uppercase, centered, no margin or padding
+	font-size:		6vmin;	/// relative font size
+}
+
+.h1__5 {
+	@include		h1;		///	unica one, uppercase, centered, no margin or padding
+	font-size:		5vmin;	///	relative font size
+}
+
+.h1__5--blue {
+	@extend		.h1__5;		/// 5vmin font size
+	color:		$blue20;	///	dark blue font
+}
+
+@mixin h2 {
+	font-family:	'Lato', sans-serif;	///	sanserif fallback
+	margin:			0;					///	no margin
+	padding:		0;					///	no padding
+	font-weight:	normal;				///	normal weight
 }
 
 .h2__3{ 								///	chat button type

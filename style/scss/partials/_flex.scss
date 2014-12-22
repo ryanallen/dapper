@@ -113,7 +113,7 @@ $svg-path : "../../img/svg/";
 ///	SPACE ADVENTURE SCENE ITEMS	///
 ///////////////////////////////////
 
-.scene__adventure--astronaut-ryan-bg{
+.scene__adventure--astronaut-ryan-bg {
 	@include				flex1;
 	background-image: 		url(#{$svg-path}space-adventure__astronaut-ryan.svg);
 	background-position:	bottom;
@@ -121,9 +121,32 @@ $svg-path : "../../img/svg/";
 	margin-top:				2vmin;
 }
 
-.scene__adventure--planet-comet-bg{
+.scene__adventure--planet-bg {
 	@include				flex1;
-	background-image:		url(#{$svg-path}space-adventure__planet-comet.svg);
+	background-image:		url(#{$svg-path}space-adventure__planet.svg);
+	background-position:	center;
+	background-repeat:		no-repeat;
+}
+
+.scene__adventure--comet-bg {
+	@include				flex1;
+	background-image:		url(#{$svg-path}space-adventure__comet.svg);
+	background-position:	center;
+	background-repeat:		no-repeat;
+}
+
+.scene__adventure--chat-cloud {
+	@include			flex3;					///	3/4 of the area is chat
+	align-items:		center;					///	vertically align text
+	background-color:	$blue60;				/// space is dark. the chat clouds are too
+	border-radius:		1rem;					///	absolute rounded corners
+	padding:			1vmin;					///	relative to keep text from fighting with edges
+	margin:				3vmin 0 3vmin 3vmin;	/// no right margin
+}
+
+.scene__adventure--chat-arrow {
+	@include	flex1;
+	background-image: 		url(#{$svg-path}space-adventure__chat-arrow.svg);
 	background-position:	center;
 	background-repeat:		no-repeat;
 }
