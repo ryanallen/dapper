@@ -29,7 +29,16 @@
 ///	container__relative-flex-unit--modifier(color, direction, etc)
 
 .box1	{@include	flex1;}
-.box2	{@include	flex2;}
+
+.box1__astronaut-ryan {
+	@extend	.box1;	///	flex1
+	background-image: url(../../img/svg/astronaut-ryan.svg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	margin-top: 2vmin;
+}
+
+.box2	{@include	flex2; background-color: $brown80;}
 .box3	{@include	flex3;}
 .box4	{@include	flex4;}
 
