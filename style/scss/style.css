@@ -5879,6 +5879,22 @@ a:link {
   font-weight: normal;
   font-size: 3vw; }
 
+.box1 {
+  display: flex;
+  flex: 1; }
+
+.box2 {
+  display: flex;
+  flex: 2; }
+
+.box3 {
+  display: flex;
+  flex: 3; }
+
+.box4 {
+  display: flex;
+  flex: 4; }
+
 .box {
   background-color: #2a2922;
   display: flex;
@@ -5921,7 +5937,7 @@ a:link {
   border-radius: .5rem;
   box-shadow: inset 0 0.5rem 0 0 #29313d;
   margin-bottom: 1rem;
-  background-color: #3d4a5c; }
+  background-color: #29313d; }
 
 .chat {
   display: flex;

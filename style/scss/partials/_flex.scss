@@ -9,12 +9,17 @@
 
 @mixin flex2 {
 	display:	flex;	// so strong
-	flex:		2;		// relative unit of 1
+	flex:		2;		// relative unit of 2
+}
+
+@mixin flex3 {
+	display:	flex;	// so strong
+	flex:		3;		// relative unit of 3
 }
 
 @mixin flex4 {
 	display:	flex;	// so strong
-	flex:		4;		// relative unit of 1
+	flex:		4;		// relative unit of 4
 }
 
 ///////////////////
@@ -22,6 +27,11 @@
 ///////////////////
 
 ///	container__relative-flex-unit--modifier(color, direction, etc)
+
+.box1	{@include	flex1;}
+.box2	{@include	flex2;}
+.box3	{@include	flex3;}
+.box4	{@include	flex4;}
 
 .box {								///	block
 	background-color:	$brown15;	/// dark brown (15 brightness)
@@ -72,7 +82,7 @@
 
 	.scene__adventure {
 		@include	scene;	///	sets the scene flex, border radius, shadow and bottom margin
-		background-color:	$blue30;	/// background a bit darker due to being inset
+		background-color:	$blue20;	/// background a bit darker due to being inset
 	}
 
 .chat {
