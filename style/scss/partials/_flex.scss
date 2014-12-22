@@ -36,38 +36,39 @@ $svg-path : "../../img/svg/";
 
 .box1	{@include	flex1;}
 
-.box1__shell {
-	@extend				.box1;		///	flex1
-	background-color:	$brown15;	/// dark brown (15 brightness)
-	height:				100%;		/// makes for no scrolling
-	padding:			1rem;		/// 14px
-}
+	.box1--column {
+		@extend			.box1;	///	flex1
+		flex-direction:	column;	///	child boxes stack vertically in a column
+	}
 
-.box1__blue-frame {
-	@include			flex1;		/// container fills all space
-	background-color:	$blue50;	/// background blue
-	border-radius:		1rem;		/// rounded corners
-	box-shadow:			0 .5rem 0 0 $blue10;	/// vertical, no blur, dark blue
-	flex-direction:		column;		/// flexbox stacks vertically in a column
-	padding:			1rem;		/// sets the size of the frame
-}
+	.box1__shell {
+		@extend				.box1;		///	flex1
+		background-color:	$brown15;	/// dark brown (15 brightness)
+		height:				100%;		/// makes for no scrolling
+		padding:			1rem;		/// 14px
+	}
 
-.box1__astronaut-ryan {
-	@extend	.box1;	///	flex1
-	background-image: url(#{$svg-path}space-adventure__astronaut-ryan.svg);
-	background-position: bottom;
-	background-repeat: no-repeat;
-	margin-top: 2vmin;
-}
+	.box1__blue-frame {
+		@include			flex1;		/// container fills all space
+		background-color:	$blue50;	/// background blue
+		border-radius:		1rem;		/// rounded corners
+		box-shadow:			0 .5rem 0 0 $blue10;	/// vertical, no blur, dark blue
+		flex-direction:		column;		/// flexbox stacks vertically in a column
+		padding:			1rem;		/// sets the size of the frame
+	}
+
+	.box1__astronaut-ryan {
+		@extend	.box1;	///	flex1
+		background-image: url(#{$svg-path}space-adventure__astronaut-ryan.svg);
+		background-position: bottom;
+		background-repeat: no-repeat;
+		margin-top: 2vmin;
+	}
 
 .box2	{@include	flex2;}
 .box3	{@include	flex3;}
 .box4	{@include	flex4;}
 
-.box__1--column {
-	@include		flex1;	/// container fills all space
-	flex-direction:	column;	/// vertical stack of scene then choices
-}
 
 .box__4--column {
 	@include		flex4;	/// container fills all space

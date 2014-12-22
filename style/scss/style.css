@@ -5879,9 +5879,12 @@ a:link {
   font-weight: normal;
   font-size: 3vw; }
 
-.box1, .box1__shell, .box1__astronaut-ryan {
+.box1, .box1--column, .box1__shell, .box1__astronaut-ryan {
   display: flex;
   flex: 1; }
+
+.box1--column {
+  flex-direction: column; }
 
 .box1__shell {
   background-color: #2a2922;
@@ -5914,11 +5917,6 @@ a:link {
 .box4 {
   display: flex;
   flex: 4; }
-
-.box__1--column {
-  display: flex;
-  flex: 1;
-  flex-direction: column; }
 
 .box__4--column {
   display: flex;
