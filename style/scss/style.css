@@ -5894,19 +5894,19 @@ a:link {
   font-weight: normal;
   font-size: 3vw; }
 
-.box1, .box1--column, .box1__shell {
+.flex1, .flex1--column, .flex1__shell {
   display: flex;
   flex: 1; }
 
-.box1--column {
+.flex1--column {
   flex-direction: column; }
 
-.box1__shell {
+.flex1__shell {
   background-color: #2a2922;
   height: 100%;
   padding: 1rem; }
 
-.box1__blue-frame {
+.flex1__blue-frame {
   display: flex;
   flex: 1;
   background-color: #667b99;
@@ -5915,19 +5915,19 @@ a:link {
   flex-direction: column;
   padding: 1rem; }
 
-.box2 {
+.flex2 {
   display: flex;
   flex: 2; }
 
-.box3 {
+.flex3 {
   display: flex;
   flex: 3; }
 
-.box4 {
+.flex4 {
   display: flex;
   flex: 4; }
 
-.box__4--column {
+.flex__4--column {
   display: flex;
   flex: 4;
   flex-direction: column; }
@@ -6042,7 +6042,7 @@ a:link {
   background-color: #47566b;
   box-shadow: none; }
 
-.flex1 {
+.flex1, .flex1--column, .flex1__shell {
   display: flex;
   flex: 1; }
 

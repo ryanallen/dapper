@@ -34,21 +34,21 @@ $svg-path : "../../img/svg/";
 
 ///	container__relative-flex-unit--modifier(color, direction, etc)
 
-.box1	{@include	flex1;}
+.flex1	{@include	flex1;}
 
-	.box1--column {
-		@extend			.box1;	///	flex1
+	.flex1--column {
+		@extend			.flex1;	///	flex1
 		flex-direction:	column;	///	child boxes stack vertically in a column
 	}
 
-	.box1__shell {
-		@extend				.box1;		///	flex1
+	.flex1__shell {
+		@extend				.flex1;		///	flex1
 		background-color:	$brown15;	/// dark brown (15 brightness)
 		height:				100%;		/// makes for no scrolling
 		padding:			1rem;		/// 14px
 	}
 
-	.box1__blue-frame {
+	.flex1__blue-frame {
 		@include			flex1;		/// container fills all space
 		background-color:	$blue50;	/// background blue
 		border-radius:		1rem;		/// rounded corners
@@ -59,12 +59,12 @@ $svg-path : "../../img/svg/";
 
 
 
-.box2	{@include	flex2;}
-.box3	{@include	flex3;}
-.box4	{@include	flex4;}
+.flex2	{@include	flex2;}
+.flex3	{@include	flex3;}
+.flex4	{@include	flex4;}
 
 
-.box__4--column {
+.flex__4--column {
 	@include		flex4;	/// container fills all space
 	flex-direction:	column;	/// vertical stack of scene then choices
 }
@@ -191,7 +191,7 @@ $svg-path : "../../img/svg/";
 
 .bioware-style-conversation-wheel {
 	@include	flex1;	/// button fills the box
-
+	///	this selector hides when in portrait (media_queries.scss)
 }
 
 .choices__button:hover,

@@ -15,6 +15,7 @@
 	<circle
 		id="planet-glow"
 		fill="#333E4D"
+		fill-opacity="0.8"
 		cx="55"
 		cy="50"
 		r="48"
