@@ -82,6 +82,7 @@
 .scene__adventure--chat-cloud {
 	@extend				.flex3;					///	3/4 of the area is chat
 	align-items:		center;					///	vertically align text
+	justify-content:	center;					/// centers text on the x axis
 	background-color:	$blue60;				/// space is dark. the chat clouds are too
 	border-radius:		1rem;					///	absolute rounded corners
 	padding:			1vmin;					///	relative to keep text from fighting with edges

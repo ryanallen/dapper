@@ -5950,6 +5950,9 @@ a:link {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: #8596ad;
   border-radius: 1rem;
   padding: 1vmin;

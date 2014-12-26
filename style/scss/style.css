@@ -5902,6 +5902,7 @@ a:link {
 
 .scene__adventure--chat-cloud {
   align-items: center;
+  justify-content: center;
   background-color: #8596ad;
   border-radius: 1rem;
   padding: 1vmin;
