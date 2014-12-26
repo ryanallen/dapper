@@ -1,17 +1,18 @@
-// DETECT ORIENTATION
+///////////////////////////////////////////
+///	UNIQUE STYLES FOR PORTRAIT SCREENS	///
+///////////////////////////////////////////
 
 @media all and (orientation: portrait) {
 
 	.choices {
-		flex-direction: column;
+		flex-direction: column;	///	stacks all 4 choice buttons vertically
 	}
-
 
 	h2 {
 	font-size:	5vw;	///	controls choice button font-size in portrait 
 	}
 
 	.bioware-style-conversation-wheel {
-		display: none; // hides conversation wheel when the screen is taller vertically than horizontally
+		display: none;	///	hides conversation wheel
 	}
 }
