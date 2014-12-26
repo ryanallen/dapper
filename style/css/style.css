@@ -6089,14 +6089,6 @@ a:link {
   background-color: #47566b;
   box-shadow: none; }
 
-.svg {
-  -webkit-align-self: flex-end;
-  -ms-flex-item-align: end;
-  align-self: flex-end; }
-
-.svg-absolute {
-  width: 200px; }
-
 @media all and (orientation: portrait) {
   .choices {
     -webkit-flex-direction: column;

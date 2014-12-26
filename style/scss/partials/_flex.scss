@@ -71,7 +71,7 @@ $svg-path : "../../img/svg/";
 	}
 
 	.scene__adventure {
-		@include	scene;	///	sets the scene flex, border radius, shadow and bottom margin
+		@include			scene;		///	sets the scene flex, border radius, shadow and bottom margin
 		background-color:	$blue20;	/// background a bit darker due to being inset
 		background-image: url(#{$svg-path}space-adventure__stars.svg);
 	}
@@ -178,21 +178,6 @@ $svg-path : "../../img/svg/";
 .choices__button--2:hover {
 	background-color:	$blue35;
 	box-shadow:			none;	/// removes the front of the button (dropshadow)
-}
-
-
-
-////////////////////////////////////////////////////////////////////////////////
-// SVG                                                                        //
-////////////////////////////////////////////////////////////////////////////////
-
-.svg {
-  align-self:      flex-end; 
-}
-
-.svg-absolute {
-	width: 200px;
-
 }
 
 
