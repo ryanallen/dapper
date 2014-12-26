@@ -1,27 +1,3 @@
-///////////////////////////
-///	DECLARE FLEX MIXINS	///
-///////////////////////////
-
-@mixin flex1 {
-	display:	flex;	// so strong
-	flex:		1;		// relative unit of 1
-}
-
-@mixin flex2 {
-	display:	flex;	// so strong
-	flex:		2;		// relative unit of 2
-}
-
-@mixin flex3 {
-	display:	flex;	// so strong
-	flex:		3;		// relative unit of 3
-}
-
-@mixin flex4 {
-	display:	flex;	// so strong
-	flex:		4;		// relative unit of 4
-}
-
 ///////////////////////
 ///	SET VARIABLES	///
 ///////////////////////
@@ -34,7 +10,13 @@ $svg-path : "../../img/svg/";
 
 ///	container__relative-flex-unit--modifier(color, direction, etc)
 
-.flex1	{@include	flex1;}
+@for $flex-unit from 1 through 10 {
+	.flex#{$flex-unit} {
+		display: flex; flex: $flex-unit; 
+	}
+}
+
+//////////////////////////////////////////////////
 
 	.flex1--column {
 		@extend			.flex1;	///	flex1
@@ -49,7 +31,7 @@ $svg-path : "../../img/svg/";
 	}
 
 	.flex1__blue-frame {
-		@include			flex1;		/// container fills all space
+		@extend				.flex1;		/// container fills all space
 		background-color:	$blue50;	/// background blue
 		border-radius:		1rem;		/// rounded corners
 		box-shadow:			0 .5rem 0 0 $blue10;	/// vertical, no blur, dark blue
@@ -57,13 +39,13 @@ $svg-path : "../../img/svg/";
 		padding:			1rem;		/// sets the size of the frame
 	}
 
-.flex2	{@include	flex2;}
-.flex3	{@include	flex3;}
-.flex4	{@include	flex4;}
+.flex2	{@extend	.flex2;}
+.flex3	{@extend	.flex3;}
+.flex4	{@extend	.flex4;}
 
 
 .flex__4--column {
-	@include		flex4;	/// container fills all space
+	@extend		.flex4;	/// container fills all space
 	flex-direction:	column;	/// vertical stack of scene then choices
 }
 
@@ -77,7 +59,7 @@ $svg-path : "../../img/svg/";
 ///////////////
 
 @mixin scene {
-	@include			flex2;						/// 2/3 of the vertical
+	@extend				.flex2;						/// 2/3 of the vertical
 	border-radius:		.5rem;						/// smaller corners for inner containers, .5 instead of 1
 	box-shadow:			inset 0 0.5rem 0 0 $blue20;	/// dark blue inner (inset) drop shadow
 	margin-bottom:		1rem;						/// bottom margin set to keep from touching choices
@@ -95,7 +77,7 @@ $svg-path : "../../img/svg/";
 	}
 
 .chat {
-	@include			flex2;			/// 2/3 of the vertical
+	@extend				.flex2;			/// 2/3 of the vertical
 	background-color:	$brown75;		/// white was so overpowering
 	border-radius:		1rem;			/// rounded corners are fly - static corners
 	padding:			3vmin;			/// used to keep h1 text from fighting with the edges - dynamic padding
@@ -103,7 +85,7 @@ $svg-path : "../../img/svg/";
 }
 
 .chat__cloud {
-	@include			flex1;			/// fill the chat box (minus the padding)
+	@extend				.flex1;			/// fill the chat box (minus the padding)
 	align-items:		center;			/// centers text vertically. *flex
 }
 
@@ -112,7 +94,7 @@ $svg-path : "../../img/svg/";
 ///////////////////////////////////
 
 .scene__adventure--astronaut-ryan-bg {
-	@include				flex1;
+	@extend					.flex1;
 	background-image: 		url(#{$svg-path}space-adventure__astronaut-ryan.svg);
 	background-position:	bottom;
 	background-repeat:		no-repeat;
@@ -120,21 +102,21 @@ $svg-path : "../../img/svg/";
 }
 
 .scene__adventure--planet-bg {
-	@include				flex1;
+	@extend					.flex1;
 	background-image:		url(#{$svg-path}space-adventure__planet.svg);
 	background-position:	center;
 	background-repeat:		no-repeat;
 }
 
 .scene__adventure--comet-bg {
-	@include				flex1;
+	@extend					.flex1;
 	background-image:		url(#{$svg-path}space-adventure__comet.svg);
 	background-position:	center;
 	background-repeat:		no-repeat;
 }
 
 .scene__adventure--chat-cloud {
-	@include			flex3;					///	3/4 of the area is chat
+	@extend				.flex3;					///	3/4 of the area is chat
 	align-items:		center;					///	vertically align text
 	background-color:	$blue60;				/// space is dark. the chat clouds are too
 	border-radius:		1rem;					///	absolute rounded corners
@@ -143,7 +125,7 @@ $svg-path : "../../img/svg/";
 }
 
 .scene__adventure--chat-arrow {
-	@include	flex1;
+	@extend					.flex1;
 	background-image: 		url(#{$svg-path}space-adventure__chat-arrow.svg);
 	background-position:	center;
 	background-repeat:		no-repeat;
@@ -155,7 +137,7 @@ $svg-path : "../../img/svg/";
 	
 
 .choices {
-	@include			flex1;						/// container fills all space
+	@extend				.flex1;						/// container fills all space
 	background-color:	$blue30;
 	border-radius:		.5rem;						/// smaller corners for inner containers, .5 instead of 1
 	box-shadow:			inset 0 0.5rem 0 0 $blue20;	/// dark blue inner (inset) drop shadow
@@ -164,7 +146,7 @@ $svg-path : "../../img/svg/";
 }
 
 .choices__button {
-	@include			flex1; /// button fills the box
+	@extend				.flex1; /// button fills the box
 	align-items:		center;	/// centers text on the y axis
 	background-color:	$blue40;
 	margin:				.3rem;
@@ -176,7 +158,7 @@ $svg-path : "../../img/svg/";
 }
 
 .choices__button--2 {
-	@include			flex2; /// button fills the box
+	@extend				.flex2; /// button fills the box
 	align-items:		center;	/// centers text on the y axis
 	background-color:	$blue40;
 	margin:				.3rem;
@@ -188,7 +170,7 @@ $svg-path : "../../img/svg/";
 }
 
 .bioware-style-conversation-wheel {
-	@include	flex1;	/// button fills the box
+	@extend	.flex1;	/// button fills the box
 	///	this selector hides when in portrait (media_queries.scss)
 }
 
@@ -198,14 +180,6 @@ $svg-path : "../../img/svg/";
 	box-shadow:			none;	/// removes the front of the button (dropshadow)
 }
 
-////////////////////////////////////////////////////////////////////////////////
-// DISCARD WHEN DONE                                 						  //
-////////////////////////////////////////////////////////////////////////////////
-@for $flex-unit from 1 through 10 {
-	.flex#{$flex-unit} {
-		display: flex; flex: $flex-unit; 
-	}
-}
 
 
 ////////////////////////////////////////////////////////////////////////////////

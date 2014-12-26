@@ -5891,167 +5891,19 @@ a:link {
   font-weight: normal;
   font-size: 3vw; }
 
-.flex1, .flex1--column, .flex1__shell {
+.flex1, .flex1--column, .flex1__shell, .flex1__blue-frame, .chat__cloud, .scene__adventure--astronaut-ryan-bg, .scene__adventure--planet-bg, .scene__adventure--comet-bg, .scene__adventure--chat-arrow, .choices, .choices__button, .bioware-style-conversation-wheel {
   display: flex;
   flex: 1; }
 
-.flex1--column {
-  flex-direction: column; }
-
-.flex1__shell {
-  background-color: #2a2922;
-  height: 100%;
-  padding: 1rem; }
-
-.flex1__blue-frame {
-  display: flex;
-  flex: 1;
-  background-color: #667b99;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 0 0 #14191f;
-  flex-direction: column;
-  padding: 1rem; }
-
-.flex2 {
+.flex2, .scene__index, .scene__adventure, .chat, .choices__button--2 {
   display: flex;
   flex: 2; }
 
-.flex3 {
+.flex3, .scene__adventure--chat-cloud {
   display: flex;
   flex: 3; }
 
-.flex4 {
-  display: flex;
-  flex: 4; }
-
-.flex__4--column {
-  display: flex;
-  flex: 4;
-  flex-direction: column; }
-
-.pad10 {
-  padding: 1rem; }
-
-.scene__index {
-  display: flex;
-  flex: 2;
-  border-radius: .5rem;
-  box-shadow: inset 0 0.5rem 0 0 #29313d;
-  margin-bottom: 1rem;
-  background-color: #3d4a5c; }
-
-.scene__adventure {
-  display: flex;
-  flex: 2;
-  border-radius: .5rem;
-  box-shadow: inset 0 0.5rem 0 0 #29313d;
-  margin-bottom: 1rem;
-  background-color: #29313d;
-  background-image: url(../../img/svg/space-adventure__stars.svg); }
-
-.chat {
-  display: flex;
-  flex: 2;
-  background-color: #c6c3b9;
-  border-radius: 1rem;
-  padding: 3vmin;
-  margin: 3vmin 0; }
-
-.chat__cloud {
-  display: flex;
-  flex: 1;
-  align-items: center; }
-
-.scene__adventure--astronaut-ryan-bg {
-  display: flex;
-  flex: 1;
-  background-image: url(../../img/svg/space-adventure__astronaut-ryan.svg);
-  background-position: bottom;
-  background-repeat: no-repeat;
-  margin-top: 2vmin; }
-
-.scene__adventure--planet-bg {
-  display: flex;
-  flex: 1;
-  background-image: url(../../img/svg/space-adventure__planet.svg);
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.scene__adventure--comet-bg {
-  display: flex;
-  flex: 1;
-  background-image: url(../../img/svg/space-adventure__comet.svg);
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.scene__adventure--chat-cloud {
-  display: flex;
-  flex: 3;
-  align-items: center;
-  background-color: #8596ad;
-  border-radius: 1rem;
-  padding: 1vmin;
-  margin: 3vmin 0 3vmin 3vmin; }
-
-.scene__adventure--chat-arrow {
-  display: flex;
-  flex: 1;
-  background-image: url(../../img/svg/space-adventure__chat-arrow.svg);
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.choices {
-  display: flex;
-  flex: 1;
-  background-color: #3d4a5c;
-  border-radius: .5rem;
-  box-shadow: inset 0 0.5rem 0 0 #29313d;
-  padding: 1rem; }
-
-.choices__button {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  background-color: #52637a;
-  margin: .3rem;
-  box-shadow: 0 0.3rem 0 0 #29313d;
-  border-radius: .5rem;
-  justify-content: center;
-  color: #a3b0c2; }
-
-.choices__button--2 {
-  display: flex;
-  flex: 2;
-  align-items: center;
-  background-color: #52637a;
-  margin: .3rem;
-  box-shadow: 0 0.3rem 0 0 #29313d;
-  border-radius: .5rem;
-  justify-content: center;
-  color: #a3b0c2; }
-
-.bioware-style-conversation-wheel {
-  display: flex;
-  flex: 1; }
-
-.choices__button:hover,
-.choices__button--2:hover {
-  background-color: #47566b;
-  box-shadow: none; }
-
-.flex1, .flex1--column, .flex1__shell {
-  display: flex;
-  flex: 1; }
-
-.flex2 {
-  display: flex;
-  flex: 2; }
-
-.flex3 {
-  display: flex;
-  flex: 3; }
-
-.flex4 {
+.flex4, .flex__4--column {
   display: flex;
   flex: 4; }
 
@@ -6078,6 +5930,106 @@ a:link {
 .flex10 {
   display: flex;
   flex: 10; }
+
+.flex1--column {
+  flex-direction: column; }
+
+.flex1__shell {
+  background-color: #2a2922;
+  height: 100%;
+  padding: 1rem; }
+
+.flex1__blue-frame {
+  background-color: #667b99;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 0 0 #14191f;
+  flex-direction: column;
+  padding: 1rem; }
+
+.flex__4--column {
+  flex-direction: column; }
+
+.pad10 {
+  padding: 1rem; }
+
+.scene__index {
+  border-radius: .5rem;
+  box-shadow: inset 0 0.5rem 0 0 #29313d;
+  margin-bottom: 1rem;
+  background-color: #3d4a5c; }
+
+.scene__adventure {
+  border-radius: .5rem;
+  box-shadow: inset 0 0.5rem 0 0 #29313d;
+  margin-bottom: 1rem;
+  background-color: #29313d;
+  background-image: url(../../img/svg/space-adventure__stars.svg); }
+
+.chat {
+  background-color: #c6c3b9;
+  border-radius: 1rem;
+  padding: 3vmin;
+  margin: 3vmin 0; }
+
+.chat__cloud {
+  align-items: center; }
+
+.scene__adventure--astronaut-ryan-bg {
+  background-image: url(../../img/svg/space-adventure__astronaut-ryan.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin-top: 2vmin; }
+
+.scene__adventure--planet-bg {
+  background-image: url(../../img/svg/space-adventure__planet.svg);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.scene__adventure--comet-bg {
+  background-image: url(../../img/svg/space-adventure__comet.svg);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.scene__adventure--chat-cloud {
+  align-items: center;
+  background-color: #8596ad;
+  border-radius: 1rem;
+  padding: 1vmin;
+  margin: 3vmin 0 3vmin 3vmin; }
+
+.scene__adventure--chat-arrow {
+  background-image: url(../../img/svg/space-adventure__chat-arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.choices {
+  background-color: #3d4a5c;
+  border-radius: .5rem;
+  box-shadow: inset 0 0.5rem 0 0 #29313d;
+  padding: 1rem; }
+
+.choices__button {
+  align-items: center;
+  background-color: #52637a;
+  margin: .3rem;
+  box-shadow: 0 0.3rem 0 0 #29313d;
+  border-radius: .5rem;
+  justify-content: center;
+  color: #a3b0c2; }
+
+.choices__button--2 {
+  align-items: center;
+  background-color: #52637a;
+  margin: .3rem;
+  box-shadow: 0 0.3rem 0 0 #29313d;
+  border-radius: .5rem;
+  justify-content: center;
+  color: #a3b0c2; }
+
+.choices__button:hover,
+.choices__button--2:hover {
+  background-color: #47566b;
+  box-shadow: none; }
 
 .svg {
   align-self: flex-end; }
