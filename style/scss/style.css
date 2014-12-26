@@ -1,75 +1,3 @@
-.bg-lightness--0 {
-  background-color: #000000; }
-
-.bg-lightness--10 {
-  background-color: #1a1a1a; }
-
-.bg-lightness--20 {
-  background-color: #333333; }
-
-.bg-lightness--30 {
-  background-color: #4d4d4d; }
-
-.bg-lightness--40 {
-  background-color: #666666; }
-
-.bg-lightness--50 {
-  background-color: gray; }
-
-.bg-lightness--60 {
-  background-color: #999999; }
-
-.bg-lightness--70 {
-  background-color: #b3b3b3; }
-
-.bg-lightness--80 {
-  background-color: #cccccc; }
-
-.bg-lightness--90 {
-  background-color: #e6e6e6; }
-
-.bg-lightness--95 {
-  background-color: #f2f2f2; }
-
-.bg-lightness {
-  background-color: #ffffff; }
-
-.color-lightness--0 {
-  color: #000000; }
-
-.color-lightness--10 {
-  color: #1a1a1a; }
-
-.color-lightness--20 {
-  color: #333333; }
-
-.color-lightness--30 {
-  color: #4d4d4d; }
-
-.color-lightness--40 {
-  color: #666666; }
-
-.color-lightness--50 {
-  color: gray; }
-
-.color-lightness--60 {
-  color: #999999; }
-
-.color-lightness--70 {
-  color: #b3b3b3; }
-
-.color-lightness--80 {
-  color: #cccccc; }
-
-.color-lightness--90 {
-  color: #e6e6e6; }
-
-.color-lightness--95 {
-  color: #f2f2f2; }
-
-.color-lightness {
-  color: #ffffff; }
-
 .blue__bg--0 {
   background-color: black; }
 
@@ -5891,11 +5819,11 @@ a:link {
   font-weight: normal;
   font-size: 3vw; }
 
-.flex1, .flex1__column, .flex1__shell, .flex1__blue-frame, .chat__cloud, .scene__adventure--astronaut-ryan-bg, .scene__adventure--planet-bg, .scene__adventure--comet-bg, .scene__adventure--chat-arrow, .choices, .choices__button, .bioware-style-conversation-wheel {
+.flex1, .column, .shell, .blue-frame, .scene__adventure--astronaut-ryan-bg, .scene__adventure--planet-bg, .scene__adventure--comet-bg, .scene__adventure--chat-arrow, .choices, .choices__button, .bioware-style-conversation-wheel {
   display: flex;
   flex: 1; }
 
-.flex2, .scene__index, .scene__adventure, .chat, .choices__button--2 {
+.flex2, .scene__adventure {
   display: flex;
   flex: 2; }
 
@@ -5903,7 +5831,7 @@ a:link {
   display: flex;
   flex: 3; }
 
-.flex4, .flex__4--column {
+.flex4, .column4 {
   display: flex;
   flex: 4; }
 
@@ -5931,32 +5859,23 @@ a:link {
   display: flex;
   flex: 10; }
 
-.flex1__column {
+.column {
   flex-direction: column; }
 
-.flex1__shell {
+.column4 {
+  flex-direction: column; }
+
+.shell {
   background-color: #2a2922;
   height: 100%;
   padding: 1rem; }
 
-.flex1__blue-frame {
+.blue-frame {
   background-color: #667b99;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 0 0 #14191f;
   flex-direction: column;
   padding: 1rem; }
-
-.flex__4--column {
-  flex-direction: column; }
-
-.pad10 {
-  padding: 1rem; }
-
-.scene__index {
-  border-radius: .5rem;
-  box-shadow: inset 0 0.5rem 0 0 #29313d;
-  margin-bottom: 1rem;
-  background-color: #3d4a5c; }
 
 .scene__adventure {
   border-radius: .5rem;
@@ -5964,15 +5883,6 @@ a:link {
   margin-bottom: 1rem;
   background-color: #29313d;
   background-image: url(../../img/svg/space-adventure__stars.svg); }
-
-.chat {
-  background-color: #c6c3b9;
-  border-radius: 1rem;
-  padding: 3vmin;
-  margin: 3vmin 0; }
-
-.chat__cloud {
-  align-items: center; }
 
 .scene__adventure--astronaut-ryan-bg {
   background-image: url(../../img/svg/space-adventure__astronaut-ryan.svg);
@@ -6017,17 +5927,7 @@ a:link {
   justify-content: center;
   color: #a3b0c2; }
 
-.choices__button--2 {
-  align-items: center;
-  background-color: #52637a;
-  margin: .3rem;
-  box-shadow: 0 0.3rem 0 0 #29313d;
-  border-radius: .5rem;
-  justify-content: center;
-  color: #a3b0c2; }
-
-.choices__button:hover,
-.choices__button--2:hover {
+.choices__button:hover {
   background-color: #47566b;
   box-shadow: none; }
 

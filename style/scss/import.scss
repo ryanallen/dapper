@@ -1,4 +1,13 @@
-@import 'partials/lightness';		// Values for pre-color phase, not production
+///////////////////////////
+///	PROJECT VARIABLES	///
+///////////////////////////
+
+$svg-path : "../../img/svg/";	///	path to svg images
+
+///////////////
+///	IMPORTS	///
+///////////////
+
 @import 'partials/colors';
 @import 'partials/color-generator';
 @import 'partials/base';

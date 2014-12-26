@@ -1,14 +1,6 @@
-///////////////////////
-///	SET VARIABLES	///
-///////////////////////
-
-$svg-path : "../../img/svg/";
-
 ///////////////////
-///	CONTAINERS	///
+///	FLEX LOOP	///
 ///////////////////
-
-///	container__relative-flex-unit--modifier(color, direction, etc)
 
 @for $flex-unit from 1 through 10 {
 	.flex#{$flex-unit} {
@@ -18,40 +10,30 @@ $svg-path : "../../img/svg/";
 
 //////////////////////////////////////////////////
 
-	.flex1__column {
-		@extend			.flex1;	///	flex1
-		flex-direction:	column;	///	child boxes stack vertically in a column
-	}
-
-	.flex1__shell {
-		@extend				.flex1;		///	flex1
-		background-color:	$brown15;	/// dark brown (15 brightness)
-		height:				100%;		/// makes for no scrolling
-		padding:			1rem;		/// 14px
-	}
-
-	.flex1__blue-frame {
-		@extend				.flex1;		/// container fills all space
-		background-color:	$blue50;	/// background blue
-		border-radius:		1rem;		/// rounded corners
-		box-shadow:			0 .5rem 0 0 $blue10;	/// vertical, no blur, dark blue
-		flex-direction:		column;		/// flexbox stacks vertically in a column
-		padding:			1rem;		/// sets the size of the frame
-	}
-
-.flex2	{@extend	.flex2;}
-.flex3	{@extend	.flex3;}
-.flex4	{@extend	.flex4;}
-
-
-.flex__4--column {
-	@extend		.flex4;	/// container fills all space
-	flex-direction:	column;	/// vertical stack of scene then choices
+.column {
+	@extend			.flex1;	///	flex1
+	flex-direction:	column;	///	child boxes stack vertically in a column
 }
 
+	.column4 {
+		@extend			.flex4;	/// flex4
+		flex-direction:	column;	/// vertical stack of scene then choices
+	}
 
-.pad10 {
-	padding:			1rem;
+.shell {
+	@extend				.flex1;		///	flex1
+	background-color:	$brown15;	/// dark brown (15 brightness)
+	height:				100%;		/// makes for no scrolling
+	padding:			1rem;		/// 14px
+}
+
+.blue-frame {
+	@extend				.flex1;		/// flex1
+	background-color:	$blue50;	/// background blue
+	border-radius:		1rem;		/// rounded corners
+	box-shadow:			0 .5rem 0 0 $blue10;	/// vertical, no blur, dark blue
+	flex-direction:		column;		/// flexbox stacks vertically in a column
+	padding:			1rem;		/// sets the size of the frame
 }
 
 ///////////////
@@ -65,33 +47,15 @@ $svg-path : "../../img/svg/";
 	margin-bottom:		1rem;						/// bottom margin set to keep from touching choices
 }
 
-	.scene__index {
-		@include			scene;		///	sets the scene flex, border radius, shadow and bottom margin
-		background-color:	$blue30;	/// background a bit darker due to being inset
-	}
-
-	.scene__adventure {
-		@include			scene;		///	sets the scene flex, border radius, shadow and bottom margin
-		background-color:	$blue20;	/// background a bit darker due to being inset
-		background-image: url(#{$svg-path}space-adventure__stars.svg);
-	}
-
-.chat {
-	@extend				.flex2;			/// 2/3 of the vertical
-	background-color:	$brown75;		/// white was so overpowering
-	border-radius:		1rem;			/// rounded corners are fly - static corners
-	padding:			3vmin;			/// used to keep h1 text from fighting with the edges - dynamic padding
-	margin:				3vmin 0;		/// dynamic margins
-}
-
-.chat__cloud {
-	@extend				.flex1;			/// fill the chat box (minus the padding)
-	align-items:		center;			/// centers text vertically. *flex
-}
-
 ///////////////////////////////////
 ///	SPACE ADVENTURE SCENE ITEMS	///
 ///////////////////////////////////
+
+.scene__adventure {
+	@include			scene;		///	sets the scene flex, border radius, shadow and bottom margin
+	background-color:	$blue20;	/// background a bit darker due to being inset
+	background-image: url(#{$svg-path}space-adventure__stars.svg);
+}
 
 .scene__adventure--astronaut-ryan-bg {
 	@extend					.flex1;
@@ -153,31 +117,15 @@ $svg-path : "../../img/svg/";
 	box-shadow:			0 0.3rem 0 0 $blue20;	/// lower than choices to reflect less lighting, also not inset
 	border-radius:		.5rem;
 	justify-content:	center;	/// centers text on the x axis
-	color:	$blue70;
-
+	color:				$blue70;
 }
 
-.choices__button--2 {
-	@extend				.flex2; /// button fills the box
-	align-items:		center;	/// centers text on the y axis
-	background-color:	$blue40;
-	margin:				.3rem;
-	box-shadow:			0 0.3rem 0 0 $blue20;	/// lower than choices to reflect less lighting, also not inset
-	border-radius:		.5rem;
-	justify-content:	center;	/// centers text on the x axis
-	color:	$blue70;
-
-}
+	.choices__button:hover {
+		background-color:	$blue35;
+		box-shadow:			none;	/// removes the front of the button (dropshadow)
+	}
 
 .bioware-style-conversation-wheel {
 	@extend	.flex1;	/// button fills the box
 	///	this selector hides when in portrait (media_queries.scss)
 }
-
-.choices__button:hover,
-.choices__button--2:hover {
-	background-color:	$blue35;
-	box-shadow:			none;	/// removes the front of the button (dropshadow)
-}
-
-
