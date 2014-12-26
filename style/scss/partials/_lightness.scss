@@ -1,54 +1,7 @@
-// @for $b from 0 through 100 {
-//  .bg-lightness--#{$b} { background-color: hsl(0deg, 0%, $b); }
-// }
-
-
 ////////////////////////////////////////////////////////////////////////////////
-// LIGHTNESS                                                                  //
-////////////////////////////////////////////////////////////////////////////////
-	
-	$lightness:							#ffffff;	// 100% White
-	$lightness--95:		darken($lightness, 5%) ;	//  95% White
-	$lightness--90:		darken($lightness, 10%);	//	90% White
-	$lightness--80:		darken($lightness, 20%);	//  80% White
-	$lightness--70:		darken($lightness, 30%);	//  70% White
-	$lightness--60:		darken($lightness, 40%);	//  60% White
-	$lightness--50:		darken($lightness, 50%);	//  50%	Grey
-	$lightness--40:		darken($lightness, 60%);	//  40%	White
-	$lightness--30:		darken($lightness, 70%);	//  30% White
-	$lightness--25:		darken($lightness, 75%);	//	25% White
-	$lightness--20:		darken($lightness, 80%);	//	20% White
-	$lightness--10:		darken($lightness, 90%);	//  10% White
-	$lightness--5:		darken($lightness, 95%);	//   5% White
-	$lightness--0:						#000000;	//		Black
-
-////////////////////////////////////////////////////////////////////////////////
-// BACKGROUND VALUES                                                          //
+// BACKGROUND                                                                 //
 ////////////////////////////////////////////////////////////////////////////////
 
-.bg-lightness--0  { background-color: $lightness--0;  }	//     Black Background
-.bg-lightness--10 { background-color: $lightness--10; }	// 10% White Background
-.bg-lightness--20 { background-color: $lightness--20; }	// 20% White Background
-.bg-lightness--30 { background-color: $lightness--30; }	// 30% White Background
-.bg-lightness--40 { background-color: $lightness--40; }	// 40% White Background
-.bg-lightness--50 { background-color: $lightness--50; }	// 50% White Background
-.bg-lightness--60 { background-color: $lightness--60; }	// 60% White Background
-.bg-lightness--70 { background-color: $lightness--70; }	// 70% White Background
-.bg-lightness--80 { background-color: $lightness--80; }	// 80% White Background
-.bg-lightness--90 { background-color: $lightness--90; }	// 90% White Background
-.bg-lightness--95 { background-color: $lightness--95; }	// 95% White Background
-.bg-lightness	   { background-color: $lightness;    }	// 	   White Backgournd
-
-
-.color-lightness--0  { color: $lightness--0;  }	//     Black Background
-.color-lightness--10 { color: $lightness--10; }	// 10% White Background
-.color-lightness--20 { color: $lightness--20; }	// 20% White Background
-.color-lightness--30 { color: $lightness--30; }	// 30% White Background
-.color-lightness--40 { color: $lightness--40; }	// 40% White Background
-.color-lightness--50 { color: $lightness--50; }	// 50% White Background
-.color-lightness--60 { color: $lightness--60; }	// 60% White Background
-.color-lightness--70 { color: $lightness--70; }	// 70% White Background
-.color-lightness--80 { color: $lightness--80; }	// 80% White Background
-.color-lightness--90 { color: $lightness--90; }	// 90% White Background
-.color-lightness--95 { color: $lightness--95; }	// 95% White Background
-.color-lightness	  { color: $lightness;    }	// 	   White Backgournd
+@for $l from 0 through 100 {
+	.bg-lightness--#{$b} { background-color: hsl(0deg, 0%, $l); }
+}
