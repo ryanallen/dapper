@@ -18,7 +18,7 @@ $svg-path : "../../img/svg/";
 
 //////////////////////////////////////////////////
 
-	.flex1--column {
+	.flex1__column {
 		@extend			.flex1;	///	flex1
 		flex-direction:	column;	///	child boxes stack vertically in a column
 	}

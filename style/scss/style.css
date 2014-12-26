@@ -5891,7 +5891,7 @@ a:link {
   font-weight: normal;
   font-size: 3vw; }
 
-.flex1, .flex1--column, .flex1__shell, .flex1__blue-frame, .chat__cloud, .scene__adventure--astronaut-ryan-bg, .scene__adventure--planet-bg, .scene__adventure--comet-bg, .scene__adventure--chat-arrow, .choices, .choices__button, .bioware-style-conversation-wheel {
+.flex1, .flex1__column, .flex1__shell, .flex1__blue-frame, .chat__cloud, .scene__adventure--astronaut-ryan-bg, .scene__adventure--planet-bg, .scene__adventure--comet-bg, .scene__adventure--chat-arrow, .choices, .choices__button, .bioware-style-conversation-wheel {
   display: flex;
   flex: 1; }
 
@@ -5931,7 +5931,7 @@ a:link {
   display: flex;
   flex: 10; }
 
-.flex1--column {
+.flex1__column {
   flex-direction: column; }
 
 .flex1__shell {
