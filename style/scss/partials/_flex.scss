@@ -147,6 +147,6 @@
 	}
 
 .bioware-style-conversation-wheel {
-	@extend	.flex1;	/// button fills the box
+	@include	flex(1);	/// button fills the box
 	///	this selector hides when in portrait (media_queries.scss)
 }

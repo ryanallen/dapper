@@ -5819,7 +5819,7 @@ a:link {
   font-weight: normal;
   font-size: 3vw; }
 
-.flex1, .bioware-style-conversation-wheel {
+.flex1 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -6057,6 +6057,14 @@ a:link {
 .choices__button:hover {
   background-color: #47566b;
   box-shadow: none; }
+
+.bioware-style-conversation-wheel {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
 
 @media all and (orientation: portrait) {
   .choices {
