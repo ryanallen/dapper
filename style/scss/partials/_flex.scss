@@ -2,6 +2,21 @@
 ///	FLEX LOOP	///
 ///////////////////
 
+
+/// PLAYING WITH MIXINS AND VARIABLES
+///	@mixin flex($flexbox-unit: 1) {
+///	display: 	flex;
+///	flex:		$flexbox-unit;
+///	}
+
+///	.flexbox1 {
+///	@include	flex;
+///	}
+
+///	.flexbox2 {
+///	@include	flex(2);
+///	}
+
 @for $flex-unit from 1 through 10 {
 	.flex#{$flex-unit} {
 		display: flex; flex: $flex-unit; 
