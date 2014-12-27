@@ -5819,7 +5819,7 @@ a:link {
   font-weight: normal;
   font-size: 3vw; }
 
-.flex1, .column, .shell, .blue-frame, .scene__adventure--astronaut-ryan-bg, .scene__adventure--planet-bg, .scene__adventure--comet-bg, .scene__adventure--chat-arrow, .choices, .choices__button, .bioware-style-conversation-wheel {
+.flex1, .bioware-style-conversation-wheel {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -5827,7 +5827,7 @@ a:link {
   -ms-flex: 1;
   flex: 1; }
 
-.flex2, .scene__adventure {
+.flex2 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -5835,7 +5835,7 @@ a:link {
   -ms-flex: 2;
   flex: 2; }
 
-.flex3, .scene__adventure--chat-cloud {
+.flex3 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -5843,7 +5843,7 @@ a:link {
   -ms-flex: 3;
   flex: 3; }
 
-.flex4, .column4 {
+.flex4 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -5900,21 +5900,45 @@ a:link {
   flex: 10; }
 
 .column {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column; }
 
 .column4 {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column; }
 
 .shell {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   background-color: #2a2922;
   height: 100%;
   padding: 1rem; }
 
 .blue-frame {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   background-color: #667b99;
   border-radius: 1rem;
   box-shadow: 0 0.5rem 0 0 #14191f;
@@ -5924,6 +5948,12 @@ a:link {
   padding: 1rem; }
 
 .scene__adventure {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
   border-radius: .5rem;
   box-shadow: inset 0 0.5rem 0 0 #29313d;
   margin-bottom: 1rem;
@@ -5931,22 +5961,46 @@ a:link {
   background-image: url(../../img/svg/space-adventure__stars.svg); }
 
 .scene__adventure--astronaut-ryan-bg {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   background-image: url(../../img/svg/space-adventure__astronaut-ryan.svg);
   background-position: bottom;
   background-repeat: no-repeat;
   margin-top: 2vmin; }
 
 .scene__adventure--planet-bg {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   background-image: url(../../img/svg/space-adventure__planet.svg);
   background-position: center;
   background-repeat: no-repeat; }
 
 .scene__adventure--comet-bg {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   background-image: url(../../img/svg/space-adventure__comet.svg);
   background-position: center;
   background-repeat: no-repeat; }
 
 .scene__adventure--chat-cloud {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
@@ -5959,17 +6013,35 @@ a:link {
   margin: 3vmin 0 3vmin 3vmin; }
 
 .scene__adventure--chat-arrow {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   background-image: url(../../img/svg/space-adventure__chat-arrow.svg);
   background-position: center;
   background-repeat: no-repeat; }
 
 .choices {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   background-color: #3d4a5c;
   border-radius: .5rem;
   box-shadow: inset 0 0.5rem 0 0 #29313d;
   padding: 1rem; }
 
 .choices__button {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
