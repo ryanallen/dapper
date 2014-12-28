@@ -7,7 +7,7 @@ $svg-path : "../../img/svg/";	///	path to svg images
 ///////////////
 ///	IMPORTS	///
 ///////////////
-
+@import 'partials/mixins';
 @import 'partials/colors';
 @import 'partials/color-generator';
 @import 'partials/base';

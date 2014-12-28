@@ -6053,10 +6053,9 @@ a:link {
   -ms-flex-pack: center;
   justify-content: center;
   color: #a3b0c2; }
-
-.choices__button:hover {
-  background-color: #47566b;
-  box-shadow: none; }
+  .choices__button:hover {
+    background-color: #47566b;
+    box-shadow: none; }
 
 .bioware-style-conversation-wheel {
   display: -webkit-flex;

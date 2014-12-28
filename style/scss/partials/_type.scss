@@ -1,11 +1,3 @@
-@mixin h1 {
-	font-family:	'Unica One', cursive;	///	cursive fallback if font fails
-	text-transform:	uppercase;				///	uppercase
-	text-align:		center;					///	horizontally centered
-	margin:			0;						///	no margin
-	padding:		0;						///	no padding
-}
-
 .h1__12 {
 	@include		h1;		///	unica one, uppercase, centered, no margin or padding
 	font-size:		12vmin;	/// relative font size

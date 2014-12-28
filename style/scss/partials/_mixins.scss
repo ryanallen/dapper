@@ -1,0 +1,7 @@
+@mixin h1 {
+	font-family:	'Unica One', cursive;	///	cursive fallback if font fails
+	text-transform:	uppercase;				///	uppercase
+	text-align:		center;					///	horizontally centered
+	margin:			0;						///	no margin
+	padding:		0;						///	no padding
+}

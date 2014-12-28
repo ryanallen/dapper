@@ -22,6 +22,10 @@
 	flex:		$flexunit;
 }
 
+///////////////////////////////////
+/// LOOP FOR EMPTY FLEXBOXES	///
+///////////////////////////////////
+
 @for $flex-unit from 1 through 10 {
 	.flex#{$flex-unit} {
 		display: flex; flex: $flex-unit; 
@@ -139,12 +143,8 @@
 	border-radius:		.5rem;
 	justify-content:	center;	/// centers text on the x axis
 	color:				$blue70;
+	&:hover	{ background-color: $blue35; box-shadow: none; }	///	nested sass parent selctor
 }
-
-	.choices__button:hover {
-		background-color:	$blue35;
-		box-shadow:			none;	/// removes the front of the button (dropshadow)
-	}
 
 .bioware-style-conversation-wheel {
 	@include	flex(1);	/// button fills the box
