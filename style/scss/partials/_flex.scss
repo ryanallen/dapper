@@ -130,7 +130,7 @@
 	border-radius:		.5rem;
 	justify-content:	center;	/// centers text on the x axis
 	color:				$blue70;
-	&:hover	{ background-color: $blue35; box-shadow: none; }	///	nested sass parent selctor
+		&:hover	{ background-color: $blue35; box-shadow: none; }	///	nested sass parent selctor
 }
 
 .bioware-style-conversation-wheel {
