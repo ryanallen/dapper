@@ -1,3 +1,8 @@
+@mixin flex($flexunit) {					///	set flex-grow / flex-shrink / basis
+	display: 	flex;
+	flex:		$flexunit;
+}
+
 @mixin h1 {
 	font-family:	'Unica One', cursive;	///	cursive fallback if font fails
 	text-transform:	uppercase;				///	uppercase
