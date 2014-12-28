@@ -2,21 +2,6 @@
 ///	FLEX LOOP	///
 ///////////////////
 
-
-/// PLAYING WITH MIXINS AND VARIABLES
-///	@mixin flex($flexbox-unit: 1) {
-///	display: 	flex;
-///	flex:		$flexbox-unit;
-///	}
-
-///	.flexbox1 {
-///	@include	flex;
-///	}
-
-///	.flexbox2 {
-///	@include	flex(2);
-///	}
-
 @mixin flex($flexunit) {
 	display: 	flex;
 	flex:		$flexunit;
@@ -76,9 +61,11 @@
 ///////////////////////////////////
 
 .scene__adventure {
-	@include			scene;		///	sets the scene flex, border radius, shadow and bottom margin
-	background-color:	$blue20;	/// background a bit darker due to being inset
-	background-image: url(#{$svg-path}space-adventure__stars.svg);
+	@include		scene;			///	sets the scene flex, border radius, shadow and bottom margin
+		background: {				/// : needs to replace the - for nested properties
+			color:		$blue20;
+			image:		url(#{$svg-path}space-adventure__stars.svg);
+	}
 }
 
 .scene__adventure--astronaut-ryan-bg {
