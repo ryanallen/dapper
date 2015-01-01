@@ -51,6 +51,12 @@
 ///	SPACE ADVENTURE SCENE ITEMS	///
 ///////////////////////////////////
 
+/// Should be:
+/// adventure-scene
+/// adventure-scene__astronaut
+/// adventure-scene__planet
+/// etc
+
 .scene__adventure {
 	@include		scene;			///	sets the scene flex, border radius, shadow and bottom margin
 		background: {				/// : needs to replace the - for nested properties
