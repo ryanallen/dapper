@@ -6366,7 +6366,7 @@
   box-sizing: border-box; }
 
 html {
-  font-size: 14px;
+  font-size: 8px;
   height: 100%; }
 
 body {
@@ -6476,23 +6476,23 @@ a:link {
   flex: 1;
   background-color: #2a2922;
   height: 100%;
-  padding: 1rem; }
+  padding: 1.5rem; }
 
 .blue-frame {
   display: flex;
   flex: 1;
   background-color: #667b99;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 0 0 #14191f;
+  border-radius: 1.5rem;
+  box-shadow: 0 1rem 0 0 #14191f;
   flex-direction: column;
-  padding: 1rem; }
+  padding: 1.5rem; }
 
 .scene__adventure {
   display: flex;
   flex: 2;
-  border-radius: .5rem;
-  box-shadow: inset 0 0.5rem 0 0 #29313d;
-  margin-bottom: 1rem;
+  border-radius: 1rem;
+  box-shadow: inset 0 1rem 0 0 #29313d;
+  margin-bottom: 1.5rem;
   background-color: #29313d;
   background-image: url(../../img/svg/space-adventure__stars.svg); }
 
@@ -6524,7 +6524,7 @@ a:link {
   align-items: center;
   justify-content: center;
   background-color: #8596ad;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   padding: 1vmin;
   margin: 3vmin 0 3vmin 3vmin; }
 
@@ -6539,18 +6539,18 @@ a:link {
   display: flex;
   flex: 1;
   background-color: #3d4a5c;
-  border-radius: .5rem;
-  box-shadow: inset 0 0.5rem 0 0 #29313d;
-  padding: 1rem; }
+  border-radius: 1rem;
+  box-shadow: inset 0 1rem 0 0 #29313d;
+  padding: 1.5rem; }
 
 .choices__button {
   display: flex;
   flex: 1;
   align-items: center;
   background-color: #52637a;
-  margin: .3rem;
+  margin: 1rem;
   box-shadow: 0 0.3rem 0 0 #29313d;
-  border-radius: .5rem;
+  border-radius: 1rem;
   justify-content: center;
   color: #a3b0c2; }
   .choices__button:hover {

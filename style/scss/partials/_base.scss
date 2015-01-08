@@ -4,7 +4,7 @@
 * { box-sizing: border-box }				///	mindblowing
 
 html {
-	font-size: 14px;						/// all rems are relative to this number
+	font-size: 8px;							/// all rems are relative to this number
 	height: 100%;							/// sets the root container height to 100% of the viewport
 }
 
@@ -14,3 +14,6 @@ body {
 }
 
 a:link { text-decoration: none; } // Removes underline from hyperlinks
+
+$rem1: 1rem;	/// sets group 1 rems
+$rem2: 1.5rem;	/// sets group 2 rems
