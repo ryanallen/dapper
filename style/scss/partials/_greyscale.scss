@@ -5,7 +5,3 @@
 @for $l from 0 through 100 {
 	.bg--#{$l} { background-color: hsl(0deg, 0%, $l); }
 }
-
-@for $l from 0 through 100 {
-	.color--#{$l} { background-color: hsl(0deg, 0%, $l); }
-}
